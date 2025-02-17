@@ -1,0 +1,108 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  
+  .header-logo img {
+    width: 120px; /* Default size */
+    height: auto;
+    transition: width 0.3s ease; /* Smooth resizing */
+  }
+  
+  .header-nav {
+    display: flex;
+  }
+  
+  .header-nav-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-nav-list li {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .header-get-started {
+    background-color: rgb(255, 77, 0);
+    color: #fff;
+    border: none;
+    padding: 15px 24px;
+    margin-left: 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-get-started:hover {
+    background-color: darkred;
+  }
+  
+  /* Hamburger menu button (hidden by default) */
+  .header-hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #ffffff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+
+    body{
+        margin: 10px;
+    }
+    .header-logo img {
+      width: 90px; /* Reduce logo size */
+    }
+  
+    .header-nav {
+      display: none; /* Hide navigation by default */
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background-color: #333;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 0;
+    }
+  
+    .header-nav.active {
+      display: flex; /* Show when active */
+    }
+  
+    .header-nav-list {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .header-nav-list li {
+      margin: 10px 0;
+    }
+  
+    .header-get-started {
+      width: 80%;
+      text-align: center;
+    }
+  
+    .header-hamburger {
+      display: block; /* Show hamburger icon */
+    }
+  }
+  

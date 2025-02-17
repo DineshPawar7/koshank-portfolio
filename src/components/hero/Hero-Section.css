@@ -1,0 +1,185 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    flex-direction: column; /* Ensures text is stacked vertically */
+  }
+  
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centers text horizontally */
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .first-text,
+  .second-text {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .highlight-text {
+    color: rgb(255, 77, 0);
+    font-style: italic;
+  }
+  
+  .second-text {
+    font-size: 90px; /* Larger font size */
+    position: relative; /* This is crucial for positioning the circle correctly */
+  }
+  
+  .second-text::before {
+    content: "";
+    position: absolute;
+    top: -0%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    animation: flash 3s infinite ease-in-out;
+    box-shadow: 10px 10px 700px 150px rgba(255, 77, 0, 0.338);
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Optionally center the content horizontally */
+    color: rgb(255, 212, 194);
+    font-weight: 500;
+  }
+  
+  .second-discription {
+    margin-top: 10px; /* Adds space between the description and second description */
+  }
+  
+  .book-demo-btn {
+    padding: 15px 24px;
+    background-color: rgb(255, 77, 0);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .book-demo-btn:hover {
+    background-color: #ff5722;
+  }
+  
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .star-shape {
+    transform: rotate(30deg);
+    margin: -35rem -55rem 0 0;
+    height: 100px;
+    width: 100px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For Tablets and below (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    .first-text,
+    .second-text {
+      font-size: 70px;
+    }
+  
+    .second-text {
+      font-size: 80px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  
+    .book-demo-btn {
+      padding: 12px 22px;
+      font-size: 14px;
+    }
+  
+    .star-shape {
+      height: 90px;
+      width: 90px;
+    }
+  }
+  
+  /* For Mobile Devices (max-width: 768px) */
+  @media (max-width: 768px) {
+    .first-text,
+    .second-text {
+      font-size: 60px;
+    }
+  
+    .second-text {
+      font-size: 70px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .book-demo-btn {
+      padding: 10px 18px;
+      font-size: 12px;
+    }
+  
+    .star-shape {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .hero-section {
+      height: auto; /* Adjust height for smaller screens */
+      padding: 20px;
+    }
+  
+    .hero-text {
+      padding: 10px;
+    }
+  }
+  
+  /* For Small Mobile Devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .first-text,
+    .second-text {
+      font-size: 50px;
+    }
+  
+    .second-text {
+      font-size: 60px;
+    }
+  
+    .description {
+      font-size: 12px;
+    }
+  
+    .book-demo-btn {
+      padding: 8px 16px;
+      font-size: 10px;
+    }
+  
+    .star-shape {
+      height: 70px;
+      width: 70px;
+    }
+  
+    .hero-section {
+      padding: 15px;
+    }
+  
+    .hero-text {
+      padding: 5px;
+    }
+  }
+  
