@@ -20,9 +20,10 @@ const Hero = () => {
           </span>
         </p>
 
-        <button className="book-demo-btn">Book a Demo</button>
+        <button className="book-demo-btn">Book a Meeting</button>
       </div>
       <div className="hero-image">
+      {/* This SVG represents a star icon, positioned to the right of the hero text. */}
         <svg
           className="star-shape"
           xmlns="http://www.w3.org/2000/svg"

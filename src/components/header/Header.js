@@ -13,10 +13,12 @@ const Header = () => {
         <img src={Logo} alt="header-Logo"/>
       </div>
 
+    {/* The button triggers the menu to open/close in mobile and responsive views based on the current state (menuOpen). */}
       <button className="header-hamburger" onClick={() => setMenuOpen(!menuOpen)}>
         <TiThMenu />
       </button>
 
+      {/* Conditionally applies the 'header-active' class to the navigation menu when the menu is open (menuOpen is true). */}
       <nav className={`header-nav ${menuOpen ? 'header-active' : ''}`}>
         <ul className="header-nav-list">
           <li><a href="#process">Process</a></li>

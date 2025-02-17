@@ -1,0 +1,135 @@
+.trusted-brands {
+    text-align: center;
+    border-radius: 20px;
+    margin-top: -100px;
+  }
+  
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    width: 70px;
+    height: 3px;
+    background-color: rgb(255, 77, 0);
+    margin: 0 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .brands-list {
+    background-color: #222222;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 25px;
+  }
+  
+  .brand-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    width: 180px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* This CSS increases the size of the brand card slightly when the cursor hovers over it. */
+  .brand-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .brand-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .brand-card span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    position: relative;
+    opacity: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+
+  /* On hover, the image inside the brand card slides 100px to the right, similar to a "switch" effect. */
+  .brand-card:hover img {
+    transform: translateX(100px);
+  }
+  .brand-card:hover span {
+    transform: translateX(-80px);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .brand-card {
+      width: 150px; 
+    }
+    .brand-card img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .brand-card:hover img {
+      transform: translateX(50px);
+    }
+  
+    .brand-card:hover span {
+      transform: translateX(-50px);
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .trusted-brands {
+      margin-top: -120px;
+    }
+    .brand-card {
+      padding: 8px 12px;
+      width: 120px;
+    }
+  
+    .brand-card img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .brand-card:hover img {
+      transform: translateX(30px);
+    }
+  
+    .brand-card:hover span {
+      transform: translateX(-30px);
+    }
+  
+    h2 {
+      font-size: 12px;
+    }
+    .brand-card span {
+      font-size: 12px;
+    }
+  }
