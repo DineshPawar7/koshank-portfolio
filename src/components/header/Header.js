@@ -9,17 +9,14 @@ const Header = () => {
 
   return (
     <header className="header">
-      {/* Left: Responsive Logo */}
       <div className="header-logo">
         <img src={Logo} alt="header-Logo"/>
       </div>
 
-      {/* Right: Hamburger Icon */}
       <button className="header-hamburger" onClick={() => setMenuOpen(!menuOpen)}>
         <TiThMenu />
       </button>
 
-      {/* Navigation Menu */}
       <nav className={`header-nav ${menuOpen ? 'header-active' : ''}`}>
         <ul className="header-nav-list">
           <li><a href="#process">Process</a></li>

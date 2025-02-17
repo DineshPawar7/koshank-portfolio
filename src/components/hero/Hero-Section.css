@@ -5,14 +5,14 @@
     height: 100vh;
     position: relative;
     text-align: center;
-    flex-direction: column; /* Ensures text is stacked vertically */
+    flex-direction: column;
   }
   
   .hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Centers text horizontally */
+    align-items: center;
     text-align: center;
     line-height: 20px;
   }
@@ -30,8 +30,8 @@
   }
   
   .second-text {
-    font-size: 90px; /* Larger font size */
-    position: relative; /* This is crucial for positioning the circle correctly */
+    font-size: 90px;
+    position: relative;
   }
   
   .second-text::before {
@@ -47,14 +47,14 @@
   
   .description {
     display: flex;
-    flex-direction: column; /* Stack child elements vertically */
-    align-items: center; /* Optionally center the content horizontally */
+    flex-direction: column;
+    align-items: center;
     color: rgb(255, 212, 194);
     font-weight: 500;
   }
   
   .second-discription {
-    margin-top: 10px; /* Adds space between the description and second description */
+    margin-top: 10px;
   }
   
   .book-demo-btn {
@@ -140,7 +140,7 @@
     }
   
     .hero-section {
-      height: auto; /* Adjust height for smaller screens */
+      height: auto; 
       padding: 20px;
     }
   

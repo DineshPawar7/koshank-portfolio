@@ -7,9 +7,9 @@
   }
   
   .header-logo img {
-    width: 120px; /* Default size */
+    width: 120px;
     height: auto;
-    transition: width 0.3s ease; /* Smooth resizing */
+    transition: width 0.3s ease;
   }
   
   .header-nav {
@@ -68,11 +68,11 @@
         margin: 10px;
     }
     .header-logo img {
-      width: 90px; /* Reduce logo size */
+      width: 90px;
     }
   
     .header-nav {
-      display: none; /* Hide navigation by default */
+      display: none;
       position: absolute;
       top: 60px;
       right: 0;
@@ -84,7 +84,7 @@
     }
   
     .header-nav.active {
-      display: flex; /* Show when active */
+      display: flex;
     }
   
     .header-nav-list {
@@ -102,7 +102,7 @@
     }
   
     .header-hamburger {
-      display: block; /* Show hamburger icon */
+      display: block;
     }
   }
   
