@@ -61,6 +61,63 @@
   .pricing-btn-button:hover {
     background-color: #ffb700;
   }
+
+  
+.hww-icon-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.hww-icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.hww-icon-wrapper {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hww-icon-wrapper h1 {
+  font-size: 1.25rem;
+}
+
+.hww-icon-wrapper p {
+  font-weight: 200;
+  opacity: .8;
+}
+
+.hww-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ff8119;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Icon Sizes */
+.hww-icon.left {
+  font-size: 40px;
+}
+
+.hww-icon.middle {
+  font-size: 40px;
+}
+
+.hww-icon.right {
+  font-size: 40px;
+}
+
   
   /* Responsive adjustments */
   @media (max-width: 768px) {
@@ -95,5 +152,71 @@
     .simple-text {
       font-size: 1.1rem;
     }
+    .hww-icon-container {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+  
+    .hww-icon-wrapper {
+      padding: 40px; /* Adjust padding for mobile */
+      margin: 10px 0; /* Adjust margin for mobile */
+    }
+  
+    .hww-icon {
+      width: 50px; /* Reduce icon size */
+      height: 50px; /* Reduce icon size */
+    }
+  
+    .hww-icon-wrapper h1 {
+      font-size: 1rem; /* Adjust text size */
+    }
+  
+    .hww-icon-wrapper p {
+      font-size: 0.9rem; /* Adjust text size */
+    }
+    .hww-icon.left {
+      font-size: 30px;
+    }
+    
+    .hww-icon.middle {
+      font-size: 30px;
+    }
+    
+    .hww-icon.right {
+      font-size: 30px;
+    }
   }
   
+/* For screens under 480px */
+@media (max-width: 480px) {
+  .hww-icon-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+  }
+
+  .hww-icon-wrapper {
+    padding-right: 40px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .hww-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .hww-icon-wrapper h1 {
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+  }
+
+  .hww-icon-wrapper p {
+    font-size: 0.75rem;
+  }
+}
