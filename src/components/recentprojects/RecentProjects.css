@@ -1,0 +1,124 @@
+/* Global body margin remains as is */
+body {
+    margin: 0;
+    background-color: rgb(14, 14, 14);
+  }
+  
+  .recent-projects {
+    
+    padding: 40px 0;
+    background-color: white;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin:  0 100px 0 100px;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin:  0 100px 0 100px;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+  }
+  
+  .carousel-cards {
+    display: flex;
+    transition: transform 0.5s ease;
+    
+  }
+  
+.card-item {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    background-color: #eaeaea;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-info {
+    margin-top: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-subcategory {
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  
+  /* Navigation buttons */
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+
+  @media (max-width: 480px) {
+    .recent-projects {
+      padding: 20px 0;
+    }
+  
+    .section-title {
+      margin: 0 20px;
+      font-size: 1.1rem;
+    }
+    .card-image{
+        height: 140px;
+        width: 140px;
+    }
+  
+    .main-title {
+      margin: 0 20px;
+      font-size: 1.8rem;
+    }
+  
+    .prev-btn, .next-btn {
+      padding: 8px;
+      font-size: 1.2rem;
+    }
+  }

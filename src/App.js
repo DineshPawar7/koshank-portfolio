@@ -1,8 +1,9 @@
 import './App.css';
+import Capabilities from './components/capabilities/Capabilities';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero-Section';
 import HowWeWork from './components/howWeWork/HowWeWork'; 
-// import TabsComponent from './components/tabscomponent/TabsComponent';
+import RecentProjects from './components/recentprojects/RecentProjects';
 import TrustedBrand from './components/trustedBrands/TrustedBrands';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Hero />
       <TrustedBrand />
       <HowWeWork />
-      {/* <TabsComponent /> */}
+      <RecentProjects />
+      <Capabilities />
       
     </div>
   );

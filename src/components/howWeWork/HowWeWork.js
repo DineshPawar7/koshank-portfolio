@@ -1,5 +1,5 @@
 import React from 'react';
-import './HowWeWork.css'; // Assuming you'll add the styles in this CSS file
+import './HowWeWork.css';
 import { IoRocket } from "react-icons/io5";
 import { FaPenNib } from 'react-icons/fa';
 import { FaArrowsRotate } from "react-icons/fa6";
