@@ -2,11 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   height: 80vh;
-=======
   height: 100vh;
->>>>>>> 95646a3e107ada1de7bee56ae017907adaa1f15e
   position: relative;
   text-align: center;
   flex-direction: column;
@@ -19,11 +16,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-<<<<<<< HEAD
   line-height: 0.6;
-=======
   line-height: 0.5;
->>>>>>> 95646a3e107ada1de7bee56ae017907adaa1f15e
 }
 
 .first-text,
@@ -60,11 +54,8 @@
   flex-direction: column;
   align-items: center;
   color: rgb(255, 212, 194);
-<<<<<<< HEAD
   font-weight: 400;
-=======
   font-weight: 500;
->>>>>>> 95646a3e107ada1de7bee56ae017907adaa1f15e
   font-size: 1.1vw;
 }
 
@@ -108,7 +99,6 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-<<<<<<< HEAD
   .hero-section {
     height: 90vw; /* Adjust height for smaller screens */
     padding: 10px;
@@ -122,46 +112,37 @@
   }
   .description {
     font-size: 1.4vw;
-=======
-  
+  }  
   .first-text, .second-text {
-      font-size: 8vw;
+    font-size: 8vw;
   }
   .second-text {
-      font-size: 8vw;
+    font-size: 8vw;
   }
   .description {
-      font-size: 1.4vw;
->>>>>>> 95646a3e107ada1de7bee56ae017907adaa1f15e
+    font-size: 1.4vw;
   }
   
   .hero-text {
     line-height: 0.1;
   }
   .book-demo-btn {
-<<<<<<< HEAD
     font-size: 2.5vw;
     padding: 10px 15px;
-=======
-      font-size: 2.5vw;
-      padding: 10px 15px;
->>>>>>> 95646a3e107ada1de7bee56ae017907adaa1f15e
   }
   .star-shape {
     height: 8vw;
     width: 8vw;
     top: 30%;
     right: 9%;
-<<<<<<< HEAD
   }
 }
 
 @media (max-width: 480px) {
   .hero-section {
-    height: 130vw; /* Adjust height for very small screens */
-    padding: 10px;
+    min-height: 85vh;
+    top: -15vh;
   }
-  
   .first-text, .second-text {
     font-size: 9vw;
   }
@@ -170,45 +151,18 @@
   }
   .description {
     font-size: 2vw;
-=======
-}
-}
-
-@media (max-width: 480px) {
-  .hero-section{
-    min-height: 85vh;
-    top: -15vh;
-  }
-  .first-text, .second-text {
-      font-size: 9vw;
-  }
-  .second-text {
-      font-size: 9vw;
-  }
-  .description {
-      font-size: 2vw;
->>>>>>> 95646a3e107ada1de7bee56ae017907adaa1f15e
   }
   .hero-text {
     line-height: 0.1;
   }
   .book-demo-btn {
-<<<<<<< HEAD
     font-size: 3vw;
     padding: 8px 12px;
-=======
-      font-size: 3vw;
-      padding: 8px 12px;
->>>>>>> 95646a3e107ada1de7bee56ae017907adaa1f15e
   }
   .star-shape {
     height: 8vw;
     width: 8vw;
     top: 36%;
     right: 8%;
-<<<<<<< HEAD
   }
-=======
-}
->>>>>>> 95646a3e107ada1de7bee56ae017907adaa1f15e
 }
