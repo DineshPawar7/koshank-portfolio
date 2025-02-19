@@ -5,7 +5,7 @@ const FadeOnScroll = ({ children }) => {
   const elementRef = useRef(null);
 
   useEffect(() => {
-    const currentElement = elementRef.current; // Store the current element in a variable
+    const currentElement = elementRef.current;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -17,15 +17,15 @@ const FadeOnScroll = ({ children }) => {
     );
 
     if (currentElement) {
-      observer.observe(currentElement);  // Use the stored element reference
+      observer.observe(currentElement);
     }
 
     return () => {
       if (currentElement) {
-        observer.unobserve(currentElement);  // Use the stored element reference for cleanup
+        observer.unobserve(currentElement);
       }
     };
-  }, []);  // Empty dependency array to run only on mount and unmount
+  }, []);
 
   return (
     <div

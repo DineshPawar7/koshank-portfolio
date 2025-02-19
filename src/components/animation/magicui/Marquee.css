@@ -1,41 +1,49 @@
-/* Marquee.css */
-
-/* Container for the scrolling area */
 .marquee-container {
   display: flex;
   overflow: hidden;
+  margin-top: 70px;
   width: 100%;
   position: relative;
 }
 
-/* Wrapper that holds both rows of cards */
 .marquee-wrapper {
   display: flex;
   animation: marquee-animation 30s linear infinite;
-  /* The width should be enough to contain two sets of cards */
-  width: 200%; /* Adjust based on your content */
+  width: 200%;
 }
 
-/* Style for individual cards */
 .marquee-card {
-  flex: 0 0 auto; /* Prevent shrinking or stretching */
+  flex: 0 0 auto;
   margin: 10px;
-  padding: 20px;
+  padding: 12px;
   border-radius: 10px;
   background-color: #2d2d2d;
   color: #fff;
   text-align: center;
-  min-width: 250px; /* Adjust based on card size */
+  min-width: 200px;
+  max-width: 220px;
+  height: 280px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Animation for scrolling from right to left */
+.marquee-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
 @keyframes marquee-animation {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* Moves the content by half the width */
+    transform: translateX(-50%);
   }
 }
 
@@ -44,30 +52,15 @@
   animation-play-state: paused;
 }
 
-
-
-
-
-
-
-
-
-/* Updated Keyframe animation for left to right movement */
-@keyframes marquee-animation-left-to-right {
-  0% {
-    transform: translateX(0); /* Start at the leftmost position */
-  }
-  100% {
-    transform: translateX(50%); /* Move to the leftmost position after completing the scroll */
-  }
+/* Title and other text elements */
+.marquee-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
-/* Apply the new keyframe to the bottom Marquee */
-.marquee-wrapper-bottom {
-  display: flex;
-  animation: marquee-animation-left-to-right 30s linear infinite;
+.marquee-card p {
+  font-size: 14px;
+  color: #ccc;
 }
 
-.marquee-wrapper-bottom .marquee-card {
-  margin-right: 50px; /* Add spacing between cards */
-}

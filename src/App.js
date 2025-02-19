@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Benefits from './components/benefits/Benefits';
 import Capabilities from './components/capabilities/Capabilities';
@@ -7,6 +8,7 @@ import HowWeWork from './components/howWeWork/HowWeWork';
 import RecentProjects from './components/recentprojects/RecentProjects';
 import Testimonial from './components/testimonial/Testimonial';
 import TrustedBrand from './components/trustedBrands/TrustedBrands';
+import PricingSection from './components/pricingSection/PricingSection';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Capabilities />
       <Benefits />
       <Testimonial />
+      <PricingSection />
       
     </div>
   );

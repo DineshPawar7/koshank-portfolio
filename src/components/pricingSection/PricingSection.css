@@ -1,0 +1,123 @@
+
+.pricing-section {
+    padding: 200px;
+    text-align: center;
+  }
+  
+  .pricing-title {
+    font-size: 24px;
+    color: yellow;
+  }
+  
+  .main-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .pricing-description {
+    font-size: 18px;
+    color: #c6c6c6;
+    margin-top: 20px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+  }
+  
+  .card-section {
+    border-radius: 8px;
+    padding: 50px;
+    width: 340px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid yellow;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-section:hover {
+    transform: scale(1.05);
+    border-color: rgb(216, 255, 19);
+  }
+  
+  .card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #c9c9c9;
+    margin-top: 10px;
+  }
+  
+  .pricing-separator {
+    margin: 20px 0;
+    height: 1px;
+    background-color: rgb(79, 79, 19);
+  }
+  
+  .card-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: yellow;
+  }
+  
+  .price-description {
+    font-size: 14px;
+    color: #d4d3d3;
+  }
+  
+  .pricing-features {
+    margin-top: 20px;
+  }
+  
+  .pricing-feature {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #fffcf4;
+    margin: 10px 0;
+  }
+  
+  .pricing-icon {
+    margin-right: 10px;
+  }
+  
+  .pricing-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .pricing-book-call, .pricing-click-to-buy {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.3s;
+  }
+  
+  .pricing-book-call:hover, .pricing-click-to-buy:hover {
+    background-color: #b9ff5d;
+  }
+  
+  @media (max-width: 768px) {
+    .pricing-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card-section {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+  

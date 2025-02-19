@@ -1,5 +1,7 @@
+
 .how-we-work {
     padding: 50px;
+    margin: 0 100px 0 100px;
   }
   
   .how-we-work-content {
@@ -37,7 +39,7 @@
   
   .pricing-btn-button {
     padding: 10px 20px;
-    background-color: #f1c40f;
+    background-color: #3a3522;
     border: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -56,17 +58,19 @@
     gap: 20px;
     margin-top: 40px;
   }
-  .title {
+  .benefit-box .title {
     color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
   }
 
-  .icon {
+  .benefit-box .icon {
     color: yellow;
   }
   
   .benefit-box {
-    border: 1px solid #f1c40f;
-    padding: 20px;
+    border: 1px solid #453d1f;
+    padding: 40px;
     text-align: center;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
