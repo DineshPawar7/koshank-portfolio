@@ -1,0 +1,84 @@
+.how-we-work {
+    padding: 50px;
+  }
+  
+  .how-we-work-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .how-we-work-left {
+    max-width: 50%;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .bold-text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .how-we-work-right {
+    max-width: 45%;
+  }
+  
+  .simple-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .pricing-btn {
+    margin-top: 20px;
+  }
+  
+  .pricing-btn-button {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pricing-btn-button:hover {
+    background-color: #d4b10f;
+  }
+  
+  /* Benefits Grid */
+  .benefits-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .title {
+    color: aliceblue;
+  }
+
+  .icon {
+    color: yellow;
+  }
+  
+  .benefit-box {
+    border: 1px solid #f1c40f;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .benefit-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .benefit-box .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  

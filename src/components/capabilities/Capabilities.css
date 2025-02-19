@@ -1,12 +1,13 @@
 .capabilities-container {
     text-align: center;
     padding: 50px 20px;
+    margin-bottom: 50px;
     
 }
 
 .capabilities-title {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10rem;
     color: rgb(255, 174, 0);
     animation: fadeInTitle 1s ease-in-out;
 }

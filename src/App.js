@@ -1,4 +1,5 @@
 import './App.css';
+import Benefits from './components/benefits/Benefits';
 import Capabilities from './components/capabilities/Capabilities';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero-Section';
@@ -15,6 +16,7 @@ function App() {
       <HowWeWork />
       <RecentProjects />
       <Capabilities />
+      <Benefits />
       
     </div>
   );
