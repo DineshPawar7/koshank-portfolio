@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import Hero from './components/hero/Hero-Section';
 import HowWeWork from './components/howWeWork/HowWeWork'; 
 import RecentProjects from './components/recentprojects/RecentProjects';
+import Testimonial from './components/testimonial/Testimonial';
 import TrustedBrand from './components/trustedBrands/TrustedBrands';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <RecentProjects />
       <Capabilities />
       <Benefits />
+      <Testimonial />
       
     </div>
   );

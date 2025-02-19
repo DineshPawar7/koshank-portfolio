@@ -1,0 +1,76 @@
+.testimonial-container {
+    padding-bottom: 28px;
+    text-align: center;
+  }
+  
+  .review-card {
+    position: relative;
+    width: 256px;
+    padding: 16px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05);
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .review-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .review-info figcaption {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .review-username {
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .marquee-container {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .marquee {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .marquee-left {
+    flex-direction: row;
+  }
+  
+  .marquee-right {
+    flex-direction: row-reverse;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
