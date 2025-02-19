@@ -9,6 +9,9 @@ import RecentProjects from './components/recentprojects/RecentProjects';
 import Testimonial from './components/testimonial/Testimonial';
 import TrustedBrand from './components/trustedBrands/TrustedBrands';
 import PricingSection from './components/pricingSection/PricingSection';
+import BlogSection from './components/blogSection/BlogSection';
+import FAQs from './components/faqs/FAQs';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
       <Benefits />
       <Testimonial />
       <PricingSection />
+      <BlogSection />
+      <FAQs />
+      <Footer />
       
     </div>
   );
