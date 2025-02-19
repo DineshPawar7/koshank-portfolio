@@ -1,12 +1,17 @@
 import React from "react";
 import './TrustedBrands.css';
+import Finearn from '../../assets/finearn.png';
+import Aglobe from '../../assets/aglobe-Logo.png';
+import Mirklee from '../../assets/mirklee.jpg';
+import Virasath from '../../assets/Virasath Logo.jpg';
+import Snack from '../../assets/Snacklorry-Logo.png'
 
 const brands = [
-  { name: "Someting Cat", img: "https://www.koshank.com/assets/images/client4.jpg" },
-  { name: "Binary Updates", img: "https://www.koshank.com/assets/images/client7.jpg" },
-  { name: "CineCraft", img: "https://www.koshank.com/assets/images/client2.jpg" },
-  { name: "The Sustainable", img: "https://www.koshank.com/assets/images/client8.jpg" },
-  { name: "Snack Lorry", img: "https://www.koshank.com/assets/images/client1.jpg" },
+  { name: "Finearn", img: Finearn },
+  { name: "Aglobe", img: Aglobe },
+  { name: "Mirklee", img: Mirklee },
+  { name: "Virasath", img: Virasath },
+  { name: "Snack Lorry", img: Snack },
 ];
 
 const TrustedBrands = () => {

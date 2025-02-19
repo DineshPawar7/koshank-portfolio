@@ -39,7 +39,7 @@
   
   .pricing-btn-button {
     padding: 10px 20px;
-    background-color: #3a3522;
+    background-color: #fe5000;
     border: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -48,7 +48,7 @@
   }
   
   .pricing-btn-button:hover {
-    background-color: #d4b10f;
+    background-color: #812900;
   }
   
   /* Benefits Grid */
@@ -65,7 +65,7 @@
   }
 
   .benefit-box .icon {
-    color: yellow;
+    color: #fe5000;
   }
   
   .benefit-box {

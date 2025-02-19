@@ -14,9 +14,9 @@ const Hero = () => {
           </span>
         </h1>
         <p className="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor,
+          We increase revenue and ensure sustainable long-term growth for your
           <span className="second-discription">
-            sed do eiusmod tempor incididunt ut labore do eiusmod.
+          business through powerful Webflow websites.
           </span>
         </p>
 

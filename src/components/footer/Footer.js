@@ -1,5 +1,6 @@
 import React from 'react';
 import '../footer/Footer.css';
+import Logo from '../../assets/koshank.png';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTimes } from 'react-icons/fa';
 
 
@@ -22,7 +23,7 @@ const Footer = () => {
       <div className="footer-main">
         <div className="footer-left">
           <div className="logo">
-            <img src="http://localhost:3000/static/media/koshank-logo.552c001bbca09f044b31.png" alt="Logo" />
+            <img src={Logo} alt="Logo" />
           </div>
           <p>Koshank - the leading digital agency based in the Pune Maharashtra, working with top-tier clients, from start-ups to enterprises.</p>
         </div>

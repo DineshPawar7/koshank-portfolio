@@ -13,13 +13,14 @@ body {
     box-sizing: border-box;
   }
   
-  .section-title {
+  .project-section-title {
     font-size: 1.5rem;
     font-weight: normal;
     margin:  0 100px 0 100px;
+    color: #fe5000;
   }
   
-  .main-title {
+  .project-main-title {
     font-size: 2.5rem;
     font-weight: bold;
     margin-top: 10px;
@@ -61,14 +62,16 @@ body {
     margin-top: 15px;
   }
   
-  .card-title {
+  .project-card-title {
     font-size: 1.2rem;
     font-weight: bold;
+    color: rgb(0, 0, 0);
   }
   
   .card-subcategory {
     font-size: 1rem;
-    color: gray;
+    color: #fe5000;
+    font-weight: 500;
   }
   
   

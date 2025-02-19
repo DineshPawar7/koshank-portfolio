@@ -35,7 +35,7 @@
 }
 
 .header-get-started {
-  background-color: rgb(255, 77, 0);
+  background-color: #fe5000;
   color: #fff;
   border: none;
   padding: 15px 24px;
@@ -49,7 +49,7 @@
 }
 
 .header-get-started:hover {
-  background-color: darkred;
+  background-color: #c94000;
 }
 
 /* Hamburger menu button (hidden by default) */

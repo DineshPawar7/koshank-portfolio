@@ -39,8 +39,8 @@
   .section-heading {
     font-size: 1rem;
     font-weight: normal;
-    color: hsl(7, 98%, 60%);
-    margin-bottom: -30px;
+    color: #fe5000;
+    margin-bottom: 30px;
   }
   
   .pricing-btn {
@@ -49,7 +49,7 @@
   
   .pricing-btn-button {
     padding: 12px 20px;
-    background-color: #ffcc00;
+    background-color: #fe5000;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -59,7 +59,7 @@
   }
   
   .pricing-btn-button:hover {
-    background-color: #ffb700;
+    background-color: #892c00;
   }
 
   
@@ -98,7 +98,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #ff8119;
+  background-color: #fe5000;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;

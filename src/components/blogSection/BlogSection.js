@@ -13,7 +13,7 @@ const SectionContainer = styled.section`
 `;
 
 const BlogsTitle = styled.h3`
-  color: #FFD700;
+  color: #fe5000;
   text-align: center;
   margin-bottom: 10px;
 `;
@@ -75,7 +75,7 @@ const CardContent = styled.div`
 `;
 
 const Category = styled.h3`
-  color: #FFD700;
+  color: #fe5000;
   margin-bottom: 10px;
   font-size: 0.9rem;
 `;

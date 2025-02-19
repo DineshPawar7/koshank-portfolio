@@ -1,5 +1,7 @@
 import React from 'react';
 import './PricingSection.css';
+import { FaStar } from "react-icons/fa";
+
 
 const PricingSection = () => {
   return (
@@ -21,25 +23,25 @@ const PricingSection = () => {
 
           <div className="pricing-features">
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> 1x active task at a time
+              <span className="pricing-icon"><FaStar /></span> 1x active task at a time
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Unlimited revisions
+              <span className="pricing-icon"><FaStar /></span> Unlimited revisions
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Dedicated project manager
+              <span className="pricing-icon"><FaStar /></span> Dedicated project manager
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Daily comms through Slack
+              <span className="pricing-icon"><FaStar /></span> Daily comms through Slack
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Work with senior designers
+              <span className="pricing-icon"><FaStar /></span> Work with senior designers
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> 2-3 days turn around time
+              <span className="pricing-icon"><FaStar /></span> 2-3 days turn around time
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Top tier design
+              <span className="pricing-icon"><FaStar /></span> Top tier design
             </div>
           </div>
 
@@ -59,25 +61,25 @@ const PricingSection = () => {
 
           <div className="pricing-features">
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> 3x active task at a time
+              <span className="pricing-icon"><FaStar /></span> 3x active task at a time
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Unlimited revisions
+              <span className="pricing-icon"><FaStar /></span> Unlimited revisions
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Dedicated project manager
+              <span className="pricing-icon"><FaStar /></span> Dedicated project manager
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Daily comms through Slack
+              <span className="pricing-icon"><FaStar /></span> Daily comms through Slack
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Work with senior designers
+              <span className="pricing-icon"><FaStar /></span> Work with senior designers
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> 2-3 days turn around time
+              <span className="pricing-icon"><FaStar /></span> 2-3 days turn around time
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Top tier design
+              <span className="pricing-icon"><FaStar /></span> Top tier design
             </div>
           </div>
 
@@ -97,25 +99,25 @@ const PricingSection = () => {
 
           <div className="pricing-features">
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Unlimited active tasks
+              <span className="pricing-icon"><FaStar /></span> Unlimited active tasks
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Unlimited revisions
+              <span className="pricing-icon"><FaStar /></span> Unlimited revisions
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Dedicated project manager
+              <span className="pricing-icon"><FaStar /></span> Dedicated project manager
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Daily comms through Slack
+              <span className="pricing-icon"><FaStar /></span> Daily comms through Slack
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Work with senior designers
+              <span className="pricing-icon"><FaStar /></span> Work with senior designers
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> 2-3 days turn around time
+              <span className="pricing-icon"><FaStar /></span> 2-3 days turn around time
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon">⭐</span> Top tier design
+              <span className="pricing-icon"><FaStar /></span> Top tier design
             </div>
           </div>
 

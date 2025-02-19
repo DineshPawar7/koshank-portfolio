@@ -87,8 +87,8 @@ const RecentProjects = () => {
 
   return (
     <section className="recent-projects">
-      <h3 className="section-title">Our Portfolio</h3>
-      <h1 className="main-title">See Our Recent Projects</h1>
+      <h3 className="project-section-title">OUR PORTFOLIO</h3>
+      <h1 className="project-main-title">See Our Recent Projects</h1>
       <div
         className="carousel"
         ref={carouselRef}
@@ -112,7 +112,7 @@ const RecentProjects = () => {
             <div key={index} className="card-item">
               <img src={project.image} alt={project.title} className="card-image" />
               <div className="card-info">
-                <h4 className="card-title">{project.title}</h4>
+                <h4 className="project-card-title">{project.title}</h4>
                 <p className="card-subcategory">{project.subCategory}</p>
               </div>
             </div>

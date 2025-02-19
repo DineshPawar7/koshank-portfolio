@@ -8,7 +8,7 @@
 .capabilities-title {
     font-size: 24px;
     margin-bottom: 10rem;
-    color: rgb(255, 174, 0);
+    color: #fe5000;
     animation: fadeInTitle 1s ease-in-out;
 }
 
@@ -33,7 +33,9 @@
 }
 
 .capability-btn {
-    background-color: rgb(255, 174, 0);
+    background-color: #fe5000;
+    color: white;
+    font-weight: 500;
     border: none;
     padding: 15px 25px;
     font-size: 16px;
@@ -44,7 +46,7 @@
 
 /* Button Hover Animation */
 .capability-btn:hover {
-    background-color: #ffcc00;
+    background-color: #712401;
     transform: scale(1.1);
 }
 

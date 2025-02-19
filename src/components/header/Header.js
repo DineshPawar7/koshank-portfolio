@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
-import Logo from '../../assets/koshank-logo.png';
 import { TiThMenu } from "react-icons/ti";
+import koshankImage from '../../assets/koshank.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-logo">
-        <img src={Logo} alt="header-Logo" />
+        <img src={koshankImage} alt="header-Logo" />
       </div>
 
       {/* Toggle the menu open/close */}

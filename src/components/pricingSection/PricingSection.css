@@ -6,7 +6,7 @@
   
   .pricing-title {
     font-size: 24px;
-    color: yellow;
+    color: #fe5000;
   }
   
   .main-title {
@@ -34,13 +34,13 @@
     padding: 50px;
     width: 340px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 2px solid yellow;
+    border: 2px solid #fe5000;
     transition: transform 0.3s ease-in-out;
   }
   
   .card-section:hover {
     transform: scale(1.05);
-    border-color: rgb(216, 255, 19);
+    border-color: #fe5000;
   }
   
   .card-title {
@@ -58,13 +58,13 @@
   .pricing-separator {
     margin: 20px 0;
     height: 1px;
-    background-color: rgb(79, 79, 19);
+    background-color: #6f2300;
   }
   
   .card-price {
     font-size: 28px;
     font-weight: bold;
-    color: yellow;
+    color: #fe5000;
   }
   
   .price-description {
@@ -86,6 +86,7 @@
   
   .pricing-icon {
     margin-right: 10px;
+    color: #fe5000;
   }
   
   .pricing-buttons {
@@ -100,13 +101,13 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: yellow;
+    background-color: #fe5000;
     color: black;
     transition: background-color 0.3s;
   }
   
   .pricing-book-call:hover, .pricing-click-to-buy:hover {
-    background-color: #b9ff5d;
+    background-color: #792600;
   }
   
   @media (max-width: 768px) {
