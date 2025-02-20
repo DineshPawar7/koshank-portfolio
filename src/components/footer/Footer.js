@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="footer-right">
           <div className="contact-info">
             <p>
-              <i className="mail-icon"></i> info@koshank.com
+              <i className="mail-icon"></i> connect@koshank.com
             </p>
             <p>
-              <i className="phone-icon"></i> +44 123 456 789
+              <i className="phone-icon"></i> +91 920 923 1192
             </p>
             <div className="social-icons">
               <i className="fab fa-facebook-f"><FaInstagram /></i>

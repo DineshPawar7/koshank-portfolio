@@ -1,6 +1,5 @@
 import React from 'react';
 import '../benefits/Benefits.css';
-import '../capabilities/Capabilities.css'
 import { FaInfinity, FaBolt, FaWrench, FaClock, FaCalendarCheck, FaDollarSign, FaCogs, FaPalette, FaAward } from 'react-icons/fa'; // Icons import
 
 const benefitsData = [
@@ -21,18 +20,18 @@ const Benefits = () => {
       <div className="how-we-work-content">
         {/* Left Section */}
         <div className="how-we-work-left">
-          <h3 className="section-heading">BENEFITS</h3>
-          <h3 className="bold-text">
+          <h3 className="benefits-section-heading">BENEFITS</h3>
+          <h3 className="benefits-bold-text">
             The design subscription that connects you to your dream team.
           </h3>
         </div>
 
         {/* Right Section */}
         <div className="how-we-work-right">
-          <h4 className="simple-text">
+          <h4 className="benefits-simple-text">
             A subscription can alleviate the stress of staffing, managing expenses, or making design calls like a Creative Director. We partner with you to ensure that your design elevates your brand to new levels.
           </h4>
-          <div className="pricing-btn">
+          <div className="benefits-pricing-btn">
             <button className="pricing-btn-button">Pricing</button>
           </div>
         </div>
@@ -42,9 +41,9 @@ const Benefits = () => {
       <div className="benefits-grid-container">
         {benefitsData.map((benefit, index) => (
           <div className="benefit-box" key={index}>
-            <div className="icon">{benefit.icon}</div>
-            <h3 className="title">{benefit.heading}</h3>
-            <p className="description">{benefit.description}</p>
+            <div className="benefits-icon">{benefit.icon}</div>
+            <h3 className="benefits-title">{benefit.heading}</h3>
+            <p className="benefits-description">{benefit.description}</p>
           </div>
         ))}
       </div>

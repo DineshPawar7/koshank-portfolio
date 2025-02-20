@@ -99,44 +99,44 @@ const BlogSection = () => {
   const blogs = [
     {
       id: 1,
-      category: "React Basics",
-      title: "Getting Started with React Components",
-      excerpt: "Learn the fundamentals of React components and their lifecycle...",
+      category: "MARKETING",
+      title: "Digital Marketing Strategies",
+      excerpt: "Unlock powerful marketing strategies that drive growth...",
       image: "https://picsum.photos/150/150?random=1"
     },
     {
       id: 2,
-      category: "State Management",
-      title: "Mastering React Hooks",
-      excerpt: "A comprehensive guide to using useState and useEffect...",
+      category: "DESIGNING",
+      title: "Web Design Services",
+      excerpt: "Transform your online presence with stunning web designs...",
       image: "https://picsum.photos/150/150?random=2"
     },
     {
       id: 3,
-      category: "Performance",
-      title: "Optimizing React Apps",
-      excerpt: "Techniques for improving your React application's performance...",
+      category: "BRANDING",
+      title: "Business Branding Tips",
+      excerpt: "Build a strong brand identity with expert guidance...",
       image: "https://picsum.photos/150/150?random=3"
     },
     {
       id: 4,
-      category: "Routing",
-      title: "React Router Guide",
-      excerpt: "Implement navigation in your React applications with...",
+      category: "DESIGNING",
+      title: "Logo Design Ideas",
+      excerpt: "Create a memorable logo that represents your brand...",
       image: "https://picsum.photos/150/150?random=4"
     },
     {
       id: 5,
-      category: "Styling",
-      title: "CSS-in-JS Solutions",
-      excerpt: "Comparing popular styling solutions for React...",
+      category: "SEO",
+      title: "SEO and Marketing",
+      excerpt: "Boost search engine rankings and attract more customers...",
       image: "https://picsum.photos/150/150?random=5"
     },
     {
       id: 6,
-      category: "Testing",
-      title: "React Testing Basics",
-      excerpt: "Introduction to testing React components with Jest...",
+      category: "BUSINESS",
+      title: "Effective Social Media",
+      excerpt: "Leverage social media for business growth and engagement...",
       image: "https://picsum.photos/150/150?random=6"
     }
   ];

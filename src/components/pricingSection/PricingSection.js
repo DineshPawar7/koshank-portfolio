@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 const PricingSection = () => {
   return (
     <section className="pricing-section">
-      <h3 className="pricing-title">Clear & Simple Pricing</h3>
+      <h3 className="pricing-title">CLEAR & SIMPLE PRICING</h3>
       <h1 className="main-title">Simple pricing to level up your brand.</h1>
       <p className="pricing-description">
         Senior experts. On-demand requests. Fast turnarounds. Flat monthly fee. Cancel anytime.

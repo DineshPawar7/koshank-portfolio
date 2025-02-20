@@ -4,7 +4,7 @@ import '../capabilities/Capabilities.css';
 const Capabilities = () => {
   return (
     <div className="capabilities-container">
-      <h3 className="capabilities-title">Our Capabilities</h3>
+      <h3 className="capabilities-title">OUR CAPABILITIES</h3>
       <h1 className="capabilities-subtitle">We can help you with...</h1>
       <div className="buttons-container">
         <div className="button-row">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero-Section.css";
 
+
 const Hero = () => {
   return (
     <section className="hero-section">

@@ -14,17 +14,19 @@ body {
   }
   
   .project-section-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: normal;
     margin:  0 100px 0 100px;
     color: #fe5000;
+    text-align: center;
   }
   
   .project-main-title {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10px;
-    margin:  0 100px 0 100px;
+    text-align: center;
+
   }
   
   .carousel {

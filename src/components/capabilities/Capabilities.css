@@ -6,14 +6,14 @@
 }
 
 .capabilities-title {
-    font-size: 24px;
-    margin-bottom: 10rem;
+    font-size: 20px;
+    margin-bottom: 5rem;
     color: #fe5000;
     animation: fadeInTitle 1s ease-in-out;
 }
 
 .capabilities-subtitle {
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 40px;
     animation: fadeInSubtitle 1.5s ease-in-out;
     color: white;
@@ -82,8 +82,12 @@
 
     .capability-btn {
         width: 100%;
-        padding: 12px 20px;
+        padding: 10px 20px;
     }
+    .capabilities-title {
+        font-size: 20px;
+        margin-bottom: 3rem;
+}
 }
 
 @media (max-width: 480px) {
@@ -94,7 +98,7 @@
 
     .capability-btn {
         width: 100%;
-        padding: 12px 20px;
+        padding: 10px 20px;
         font-size: 50%;
     }
 }

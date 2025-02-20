@@ -3,20 +3,59 @@ import FadeOnScroll from "../animation/FadeOnScroll";
 import Marquee from "../animation/magicui/Marquee";
 import TitleDark from "../ui/TitleDark";
 import "../testimonial/Testimonial.css";
+import Engineer from '../../assets//Aalasi Engineer-Logo.png';
+import AART from '../../assets/AART Paramedical Institute 2.jpg';
+import Aglobe from '../../assets/aglobe-Logo.png';
+import ArchAngels from '../../assets/ArchAngels Logo.png';
+import Askone from '../../assets/Askone Logo.jpeg';
+import BBW from '../../assets/BBW Logo-1.jpg';
+import Bhagwan from '../../assets/Bhagwan Developers Logo-Final (1).png';
+import Business from '../../assets/Business-Registro-Logo---Final.jpg';
+import Cine from '../../assets/Cine Fashion India-Logo.png';
+import Cinecraft from '../../assets/Cinecraft Logo-1.jpg';
+import Codeworld from '../../assets/Code World Infotech Logo.png';
+import Decoredes from '../../assets/Decoredes Logo.jpeg';
+import Dhaani from '../../assets/Dhaani-Logo.png';
+import EMS from '../../assets/ems-Logo png.png';
+import Exaam from '../../assets/Exaam Guru Logo.png';
+import Finearn from '../../assets/finearn.png';
+import Gera from '../../assets/Gera Properties-Logo.png';
+import GIS from '../../assets/GIS Morochi-Logo.png';
+import GlobalReach from '../../assets/Global Reach Logo.png';
+import Gunjwan from '../../assets/Gunjwan Farms-Logo.png';
+import Gandharv from '../../assets/hotel gandharv logo.png';
+import IBS from '../../assets/iBs Logo.png';
+import Iitians from '../../assets/IITians Logo.png';
+import Kidzee from '../../assets/Kidzee Bibwewadi Logo.png';
+import Kumar from '../../assets/Kumar Comuters-Logo.png';
+
 
 const reviews = [
-  { name: "Komal Dange", username: "Founder & CEO", body: "Koshank Company is an excellent firm, always focusing on clients' needs with dedication and innovation.", img: "https://koshank.com/assets/team/komal.png" },
-  { name: "Shankar Dange", username: "Co-Founder", body: "Koshank has always maintained a record—our clients have never been disappointed.", img: "https://koshank.com/assets/team/shankar.png" },
-  { name: "Snack Lorry", username: "Client", body: "The designs created by Koshank are excellent, and they always provide great service.", img: "https://koshank.com/assets/images/client1.jpg" },
-  { name: "Rockfold Fitness", username: "Client", body: "Thanks to Koshank, my gym sales have increased by 50%—this is truly exciting news!", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBe8fPzqfQxUfsPu1nrnBQ1nchSqa1IZe4sQ&s" },
-  { name: "Gunjwan Farms", username: "Client", body: "Koshank built an excellent website for our business, and its SEO optimization is driving great traffic.", img: "https://i0.wp.com/gunjwanfarms.com/wp-content/uploads/2024/03/Gunjwan_Farms-removebg-preview-e1711863758834.png?fit=296%2C274&ssl=1" },
-  { name: "Dinesh Pawar", username: "Full Stack Developer", body: "Koshank's team is very friendly, and the great company environment helps solve clients' problems efficiently.", img: "https://media.licdn.com/dms/image/v2/D4D35AQEPBYKEczhcZw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1727570541987?e=1740556800&v=beta&t=vVqMPTHPG0fuEaZjCkATLPUniSn7hhcBpLKGILMNNek" },
-  { name: "Soham Kumthekar", username: "Performance Marketer", body: "In my two years with this company, I’ve seen clients grow rapidly with Koshank’s strategies.", img: "https://koshank.com/assets/team/soham.png" },
-  { name: "iitians Academy Pune", username: "Client", body: "Koshank builds and maintains websites excellently, ensuring complete client satisfaction.", img: "https://iitiansacademypune.com/uploads/logo.jpeg" },
-  // { name: "Chris Day", username: "@chrisDay", body: "Couldn't be happier!", img: "https://images.unsplash.com/photo-1522529599102" },
-  // { name: "Ella Green", username: "@ellaGreen", body: "Professional and friendly.", img: "https://images.unsplash.com/photo-1507003211169" },
-  // { name: "Tina Black", username: "@tinaBlack", body: "Superb quality.", img: "https://plus.unsplash.com/premium_photo-1661778906556" },
-  // { name: "Roger Moore", username: "@rogerMoore", body: "Top-notch team!", img: "https://images.unsplash.com/photo-1614890107637" },
+  { name: "Kumar Computers", username: "Client", body: "Their logo design transformed our brand's image. Highly creative and professional service!", img: Kumar },
+  { name: "Kidzee Bibwewadi", username: "Client", body: "Excellent web development skills! Our website is faster, more engaging, and user-friendly.", img: Kidzee },
+  { name: "IITians Academy Pune", username: "Client", body: "The digital marketing strategies they implemented boosted our sales significantly. Highly recommend!", img: Iitians },
+  { name: "IBS", username: "Client", body: "Great experience working with them. They truly understand business marketing and results-driven strategies.", img: IBS },
+  { name: "Hotel Gandharv ", username: "Client", body: "Fantastic team! They rebranded our business with a perfect logo and website design.", img: Gandharv },
+  { name: "Gunjwan", username: "Client", body: "Koshank's team is very friendly, and the great company environment helps solve clients' problems efficiently.", img: Gunjwan },
+  { name: "GlobalReach", username: "Client", body: "Their marketing services helped us increase our online presence and attract more customers.", img: GlobalReach },
+  { name: "GIS Morochi", username: "Client", body: "Amazing digital marketing strategies! We’ve seen great ROI from their campaigns.", img: GIS },
+  { name: "Gera Properties", username: "Client", body: "They helped us with business marketing that really connected us with our target audience.", img: Gera },
+  { name: "Finearn", username: "Client", body: "Creative and reliable web developers. Our site looks amazing, and it’s running smoothly!", img: Finearn },
+  { name: "Exaam Guru", username: "Client", body: "Incredible logo designs and branding. It helped us stand out in a crowded market.", img: Exaam },
+  { name: "EMS", username: "Client", body: "We saw an immediate boost in traffic and engagement after implementing their digital strategies.", img: EMS },
+  { name: "Dhaani", username: "Client", body: "Thanks to their marketing expertise, we’ve gained more leads and grown our business.", img: Dhaani },
+  { name: "Decoredes", username: "Client", body: "Their professionalism and commitment to our business needs made them a great partner.", img: Decoredes },
+  { name: "Code World Infotech", username: "Client", body: "Excellent web development! Our site is optimized, easy to navigate, and aesthetically pleasing.", img: Codeworld },
+  { name: "Cinecraft", username: "Client", body: "The digital marketing team has been outstanding. Our sales have doubled since we started working with them.", img: Cinecraft },
+  { name: "Cine Fashion India", username: "Client", body: "They’ve helped us refine our brand identity and enhanced our digital presence significantly.", img: Cine },
+  { name: "Business Registro", username: "Client", body: "Highly skilled professionals. Their work in digital marketing has grown our client base tremendously.", img: Business },
+  { name: "Bhagwan Developers", username: "Client", body: "Our website redesign looks incredible! The team is responsive and understands our needs perfectly.", img: Bhagwan },
+  { name: "Askone", username: "Client", body: "Their business marketing strategies are spot on and have increased our customer engagement.", img: Askone },
+  { name: "ArchAngels", username: "Client", body: "We’ve received excellent results from their SEO and social media marketing campaigns.", img: ArchAngels },
+  { name: "BBW", username: "Client", body: "Their team delivered outstanding results with our website development, bringing in more conversions.", img: BBW },
+  { name: "Aglobe", username: "Client", body: "They provided expert advice on marketing strategies that helped us expand our reach.", img: Aglobe },
+  { name: "AART Paramedical Institute", username: AART, body: "Highly recommend their digital marketing services! They know how to deliver results.", img: EMS },
+  { name: "Aalasi Engineer", username: "Client", body: "Thanks to their marketing team, we’ve seen steady growth in both leads and revenue.", img: Engineer },
 ];
 
 const ReviewCard = ({ img, name, username, body }) => {
