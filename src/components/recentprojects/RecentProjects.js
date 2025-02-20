@@ -1,6 +1,18 @@
 import React, { useState, useRef } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import './RecentProjects.css';
+import BBW from"../../assets/BBW Logo-1.jpg";
+import Virasath from"../../assets/Virasath Logo.jpg";
+import Vastu from"../../assets/Vastu Umbartha Logo.jpg";
+import Studio from"../../assets/Studio GH-Logo.png";
+import Sparkle from"../../assets/Sparkle Education Logo.png";
+import Shishu from"../../assets/Shishu New Logo Update-1.png";
+import Saaj from"../../assets/Saaj Collection.jpeg";
+import Code from"../../assets/Code World Infotech Logo.png";
+import Kumar from"../../assets/Kumar Comuters-Logo.png";
+import GIS from"../../assets/GIS Morochi-Logo.png";
+import Nest from"../../assets/Nest Realty-Logo.png";
+import Decoredes from"../../assets/Decoredes Logo.jpeg";
 
 const RecentProjects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,33 +23,63 @@ const RecentProjects = () => {
 
   const projects = [
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36xsmM2n3kOTy6gaVeJu1v4t2Wcf7dY_gfg&s',
-      title: 'Project One',
-      subCategory: 'Web Design',
+      image: BBW,
+      title: 'BBW',
+      subCategory: 'Designing',
     },
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36xsmM2n3kOTy6gaVeJu1v4t2Wcf7dY_gfg&s',
-      title: 'Project Two',
-      subCategory: 'Mobile App',
+      image: Virasath,
+      title: 'Virasath',
+      subCategory: 'Designing',
     },
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36xsmM2n3kOTy6gaVeJu1v4t2Wcf7dY_gfg&s',
-      title: 'Project Three',
-      subCategory: 'SEO Optimization',
+      image: Vastu,
+      title: 'Vastu Umbartha',
+      subCategory: 'Designing',
     },
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36xsmM2n3kOTy6gaVeJu1v4t2Wcf7dY_gfg&s',
-      title: 'Project Four',
-      subCategory: 'App Development',
+      image: Studio,
+      title: 'Studio GH',
+      subCategory: 'Designing',
     },
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36xsmM2n3kOTy6gaVeJu1v4t2Wcf7dY_gfg&s',
-      title: 'Project Five',
-      subCategory: 'Consulting',
+      image: Sparkle,
+      title: 'Sparkle Education',
+      subCategory: 'Designing',
     },
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36xsmM2n3kOTy6gaVeJu1v4t2Wcf7dY_gfg&s',
-      title: 'Project Six',
+      image: Shishu,
+      title: 'Shishu',
+      subCategory: 'Branding',
+    },
+    {
+      image: Saaj,
+      title: 'Saaj Collection',
+      subCategory: 'Branding',
+    },
+    {
+      image: Code,
+      title: 'Code World Infotech',
+      subCategory: 'Branding',
+    },
+    {
+      image: Kumar,
+      title: 'Kumar Comuters',
+      subCategory: 'Branding',
+    },
+    {
+      image: GIS,
+      title: 'GIS',
+      subCategory: 'Branding',
+    },
+    {
+      image: Nest,
+      title: 'Nest Realty',
+      subCategory: 'Branding',
+    },
+    {
+      image: Decoredes,
+      title: 'Decoredes',
       subCategory: 'Branding',
     },
   ];

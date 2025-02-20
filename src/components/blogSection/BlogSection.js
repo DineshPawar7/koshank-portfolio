@@ -102,42 +102,42 @@ const BlogSection = () => {
       category: "MARKETING",
       title: "Digital Marketing Strategies",
       excerpt: "Unlock powerful marketing strategies that drive growth...",
-      image: "https://picsum.photos/150/150?random=1"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRytM4phoBOkVhq_ufG7l2GhYx1bSQAEcizaw&s"
     },
     {
       id: 2,
       category: "DESIGNING",
       title: "Web Design Services",
       excerpt: "Transform your online presence with stunning web designs...",
-      image: "https://picsum.photos/150/150?random=2"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_T8FQnEG3N0d-RuXmxqvQZR1a9ai_rAajZg&s"
     },
     {
       id: 3,
       category: "BRANDING",
       title: "Business Branding Tips",
       excerpt: "Build a strong brand identity with expert guidance...",
-      image: "https://picsum.photos/150/150?random=3"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShi4mHp0xu3KHQBe0cigWMik1PVTsX335xZg&s"
     },
     {
       id: 4,
       category: "DESIGNING",
       title: "Logo Design Ideas",
       excerpt: "Create a memorable logo that represents your brand...",
-      image: "https://picsum.photos/150/150?random=4"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx4yHYrk8WNZ2QMA1D6TxQ58CiJZaXUx4A7Q&s"
     },
     {
       id: 5,
       category: "SEO",
       title: "SEO and Marketing",
       excerpt: "Boost search engine rankings and attract more customers...",
-      image: "https://picsum.photos/150/150?random=5"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ6edurzO0dZyc24hO-EtqZydfvSrtplD1dw&s"
     },
     {
       id: 6,
       category: "BUSINESS",
       title: "Effective Social Media",
       excerpt: "Leverage social media for business growth and engagement...",
-      image: "https://picsum.photos/150/150?random=6"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe76BHWYCHb58-l1AUtdHG76gxNilvgN6Ymw&s"
     }
   ];
 

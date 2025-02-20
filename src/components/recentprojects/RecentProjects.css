@@ -31,7 +31,7 @@ body {
   
   .carousel {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
     
@@ -40,13 +40,14 @@ body {
   .carousel-cards {
     display: flex;
     transition: transform 0.5s ease;
+    width: 50%;
     
   }
   
 .card-item {
     flex: 0 0 33.33%;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 50px;
     text-align: center;
     background-color: #eaeaea;
     margin: 10px;
