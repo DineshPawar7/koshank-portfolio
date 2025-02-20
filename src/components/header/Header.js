@@ -1,3 +1,4 @@
+// Header.js
 import React, { useState } from 'react';
 import './Header.css';
 import { TiThMenu } from "react-icons/ti";
@@ -9,15 +10,17 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-logo">
-        <img src={koshankImage} alt="header-Logo" />
+        <img src={koshankImage} alt="Koshank Logo" />
       </div>
 
-      {/* Toggle the menu open/close */}
-      <button className="header-hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+      <button 
+        className="header-hamburger" 
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Toggle menu"
+      >
         <TiThMenu />
       </button>
 
-      {/* Conditional class based on menuOpen */}
       <nav className={`header-nav ${menuOpen ? 'header-active' : ''}`}>
         <ul className="header-nav-list">
           <li><a href="#process">Process</a></li>
@@ -25,7 +28,11 @@ const Header = () => {
           <li><a href="#service">Service</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#faqs">FAQs</a></li>
-          <li><button className="header-get-started">Get Started</button></li>
+          <li>
+            <button className="header-get-started">
+              Get Started
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
