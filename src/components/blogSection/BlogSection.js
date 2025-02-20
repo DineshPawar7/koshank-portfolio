@@ -8,7 +8,6 @@ const fadeIn = keyframes`
 
 const SectionContainer = styled.section`
   padding: 40px 20px;
-  background-color: #1a1a1a;
   min-height: 100vh;
 `;
 
