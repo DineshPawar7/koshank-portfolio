@@ -9,8 +9,8 @@ import Hero from './components/hero/Hero-Section';
  import Testimonial from './components/testimonial/Testimonial';
  import TrustedBrand from './components/trustedBrands/TrustedBrands';
  import PricingSection from './components/pricingSection/PricingSection';
- import BlogSection from './components/blogSection/BlogSection';
- import FAQs from './components/faqs/FAQs';
+//  import BlogSection from './components/blogSection/BlogSection';
+//  import FAQs from './components/faqs/FAQs';
  import Footer from './components/footer/Footer';
 
 function App() {
@@ -25,9 +25,10 @@ function App() {
       <Benefits />
       <Testimonial />
       <PricingSection />
-      <BlogSection />
-      <FAQs />
+      {/* <BlogSection />
+      <FAQs /> */}
       <Footer />
+
       
     </div>
   );

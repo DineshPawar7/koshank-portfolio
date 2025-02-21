@@ -1,15 +1,15 @@
 import React from "react";
 import './TrustedBrands.css';
-import Finearn from '../../assets/finearn.png';
-import Dhaani from '../../assets/Dhaani-Logo.png';
-import Cinecraft from '../../assets/Cinecraft Logo-1.jpg';
+import Shivkumar from '../../assets/Pandit Shivkumar Shri-Logo (1).png';
+import Puruhomes from '../../assets/Puru Home Logo.png';
+import Mirklee from '../../assets/mirklee.jpg';
 import BBW from '../../assets/BBW Logo-1.jpg';
 import Aalasi from '../../assets/Aalasi Engineer-Logo.png';
 
 const brands = [
-  { name: "Finearn", img: Finearn },
-  { name: "Dhaani", img: Dhaani },
-  { name: "Cinecraft", img: Cinecraft },
+  { name: "Pandit Shivkumar Shree", img: Shivkumar },
+  { name: "Puru Home", img: Puruhomes },
+  { name: "Mirklee", img: Mirklee },
   { name: "BBW", img: BBW },
   { name: "Aalasi Engineer", img: Aalasi },
 ];
