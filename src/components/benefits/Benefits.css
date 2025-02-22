@@ -15,6 +15,8 @@
   font-weight: normal;
   color: #fe5000;
   margin-bottom: 30px;
+  font-family: "Montserrat", serif;
+
 }
 
 .benefits-bold-text {
@@ -22,6 +24,8 @@
   font-weight: bold;
   color: #ffffff;
   line-height: 1.2;
+  font-family: "Montserrat", serif;
+
 }
 
 .how-we-work-left,
@@ -40,6 +44,8 @@
   font-weight: normal;
   color: #ffffff;
   line-height: 1.5;
+  font-family: "Poppins", serif;
+
 }
 
 .benefits-pricing-btn {
@@ -49,6 +55,7 @@
 .pricing-btn-button {
   padding: 10px 20px;
   background-color: #fe5000;
+  text-decoration: none;
   border: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -72,10 +79,14 @@
   color: aliceblue;
   font-size: 20px;
   font-weight: 500;
+  font-family: "Montserrat", serif;
+
 }
 
 .benefits-description{
   color: #ffe0d1;
+  font-family: "Poppins", serif;
+
 }
 
 .benefit-box .benefits-icon {
@@ -136,13 +147,17 @@
   .benefits-bold-text {
     font-size: 1.8rem;
   }
+  .benefits-description {
+    font-size: 0.5rem;
+    font-weight: normal;
+  }
 
   .benefits-simple-text {
-    font-size: 0.9rem;
+    font-size: 13px;
   }
 
   .benefits-pricing-btn {
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .benefits-grid-container {

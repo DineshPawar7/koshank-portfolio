@@ -1,20 +1,20 @@
 import React, { useState, useRef } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import './RecentProjects.css';
-import Gera from "../../assets/Gera Properties-Logo.png";
-import Snacklorry from "../../assets/Snacklorry-Logo.png";
-import Dhaani from "../../assets/Dhaani-Logo.png";
-import Puruhome from "../../assets/Puru Home Logo.png";
-import Gunjwan from "../../assets/Gunjwan Farms-Logo.png";
-import IITians from "../../assets/IITians Logo.png";
-import Cinecraft from "../../assets/Cinecraft Logo-1.jpg";
-import Queen from "../../assets/The Queen Empire-New Logo.png";
+import BBW from "../../assets/BBW Logo-1.jpg";
 import Virasath from "../../assets/Virasath Logo.jpg";
-import Quality from "../../assets/Quality Mushroom-Logo.png";
-import Radhika from "../../assets/Radhika Real Estate Logo.png";
+import Vastu from "../../assets/Vastu Umbartha Logo.jpg";
+import Studio from "../../assets/Studio GH-Logo.png";
+import Sparkle from "../../assets/Sparkle Education Logo.png";
+import Shishu from "../../assets/Shishu New Logo Update-1.png";
+import Ems from "../../assets/ems-Logo png.png";
+import Code from "../../assets/Code World Infotech Logo.png";
+import Kumar from "../../assets/Kumar Comuters-Logo.png";
+import GIS from "../../assets/GIS Morochi-Logo.png";
+import Nest from "../../assets/Nest Realty-Logo.png";
 import Decoredes from "../../assets/Decoredes Logo.jpeg";
 
-const RecentProjects = () => {
+const OtherProjects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -23,76 +23,76 @@ const RecentProjects = () => {
 
   const projects = [
     {
-      image: Gera,
-      title: 'Gera Properties',
-      subCategory: 'Web Dev',
-      button: 'https://www.gera.in/'
-    },
-    {
-      image: Snacklorry,
-      title: 'Snacklorry',
-      subCategory: 'Web Dev',
-      button: 'https://snacklorry.com/'
-    },
-    {
-      image: Dhaani,
-      title: 'Dhaani',
-      subCategory: 'Web Dev',
-      button: 'https://dhaani.co.in/'
-    },
-    {
-      image: Puruhome,
-      title: 'Puru Home',
-      subCategory: 'Web Dev',
-      button: 'https://puruhome.in/'
-    },
-    {
-      image: Gunjwan,
-      title: 'Gunjwan Farms',
-      subCategory: 'Web Dev',
-      button: 'https://gunjwanfarms.com/'
-    },
-    {
-      image: IITians,
-      title: 'IITians Academy Pune',
-      subCategory: 'Web Dev',
-      button: 'https://iitiansacademypune.com/'
-    },
-    {
-      image: Cinecraft,
-      title: 'Cinecraft Academy',
-      subCategory: 'Web Dev',
-      button: 'https://cinecraftacademy.com/'
-    },
-    {
-      image: Queen,
-      title: 'The Queen Empire',
-      subCategory: 'Web Dev',
-      button: 'https://thequeenempires.com/'
+      image: BBW,
+      title: 'BBW',
+      subCategory: 'Designing/Marketing',
+      button: 'https://www.instagram.com/bestbelgianwaffle/'
     },
     {
       image: Virasath,
       title: 'Virasath',
-      subCategory: 'Web Dev',
-      button: 'https://virasath.com/'
+      subCategory: 'Designing/Marketing',
+      button: 'https://www.instagram.com/virasath_/'
     },
     {
-      image: Quality,
-      title: 'Quality Mushroom',
-      subCategory: 'Web Dev',
-      button: 'https://qualitymushroom.in/'
+      image: Vastu,
+      title: 'Vastu Umbartha',
+      subCategory: 'Designing',
+      button: '#'
     },
     {
-      image: Radhika,
-      title: 'Radhika Real Estate',
-      subCategory: 'Web Dev',
-      button: 'https://radhikarealestate.com/'
+      image: Studio,
+      title: 'Studio GH',
+      subCategory: 'Designing',
+      button: 'https://www.instagram.com/studiogh.in/'
+    },
+    {
+      image: Sparkle,
+      title: 'Sparkle Education',
+      subCategory: 'Designing',
+      button: '#'
+    },
+    {
+      image: Shishu,
+      title: 'Shishu',
+      subCategory: 'Branding',
+      button: '#'
+    },
+    {
+      image: Ems,
+      title: 'EMS Share Market',
+      subCategory: 'Branding',
+      button: 'https://www.instagram.com/emssharemarketclasses/'
+    },
+    {
+      image: Code,
+      title: 'Code World Infotech',
+      subCategory: 'Branding',
+      button: '#'
+    },
+    {
+      image: Kumar,
+      title: 'Kumar Comuters',
+      subCategory: 'Branding',
+      button: 'https://kumarcomputers.com'
+    },
+    {
+      image: GIS,
+      title: 'GIS',
+      subCategory: 'Branding',
+      button: 'https://gis.com'
+    },
+    {
+      image: Nest,
+      title: 'Nest Realty',
+      subCategory: 'Branding',
+      button: '#'
     },
     {
       image: Decoredes,
       title: 'Decoredes',
-      subCategory: 'Web Dev',
-      button: 'https://decoreds.com/'
+      subCategory: 'Branding',
+      button: '#'
     },
   ];
 
@@ -135,8 +135,7 @@ const RecentProjects = () => {
 
   return (
     <section className="recent-projects">
-      <h3 className="project-section-title">OUR PORTFOLIO</h3>
-      <h1 className="project-main-title">SEE OUR RECENT WEB DEVELOPMENT PROJECTS</h1>
+      <h1 className="project-main-title">OTHER PROJECTS</h1>
       <div
         className="carousel"
         ref={carouselRef}
@@ -178,4 +177,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default OtherProjects;

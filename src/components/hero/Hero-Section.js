@@ -1,6 +1,7 @@
+// In Hero-Section.js
 import React from "react";
+import { Link } from "react-scroll";  // Import Link from react-scroll
 import "./Hero-Section.css";
-
 
 const Hero = () => {
   return (
@@ -17,14 +18,21 @@ const Hero = () => {
         <p className="hero-description">
           We increase revenue and ensure sustainable long-term growth for your
           <span className="hero-second-discription">
-          business through powerful Webflow websites.
+            business through powerful Webflow websites.
           </span>
         </p>
 
-        <button className="hero-book-demo-btn">Book a Meeting</button>
+        {/* Add a Link component from react-scroll to scroll to Footer's Contact Us section */}
+        <Link 
+          to="footer-section"   // Points to the 'contact-us' ID in the Footer
+          smooth={true} 
+          duration={500} 
+          className="hero-book-demo-btn">
+          Book a Meeting
+        </Link>
       </div>
       <div className="hero-hero-image">
-      {/* This SVG represents a star icon, positioned to the right of the hero text. */}
+        {/* This SVG represents a star icon, positioned to the right of the hero text. */}
         <svg
           className="hero-star-shape"
           xmlns="http://www.w3.org/2000/svg"

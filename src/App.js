@@ -12,6 +12,7 @@ import Hero from './components/hero/Hero-Section';
 //  import BlogSection from './components/blogSection/BlogSection';
 //  import FAQs from './components/faqs/FAQs';
  import Footer from './components/footer/Footer';
+ import OtherProject from './components/recentprojects/OtherProject';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
        <TrustedBrand />
       <HowWeWork />
       <RecentProjects />
+      <OtherProject />
       <Capabilities />
       <Benefits />
       <Testimonial />

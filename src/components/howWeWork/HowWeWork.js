@@ -3,6 +3,8 @@ import './HowWeWork.css';
 import { IoRocket } from "react-icons/io5";
 import { FaPenNib } from 'react-icons/fa';
 import { FaArrowsRotate } from "react-icons/fa6";
+import { Link } from "react-scroll";  // Import Link from react-scroll
+
 
 
 const HowWeWork = () => {
@@ -26,7 +28,13 @@ const HowWeWork = () => {
           </h4>
           {/* Pricing Button below right text */}
           <div className="pricing-btn">
-            <button className="pricing-btn-button">Pricing</button>
+          <Link 
+          to="pricing-btn-button"   // Points to the 'contact-us' ID in the Footer
+          smooth={true} 
+          duration={500} 
+          className="hero-book-demo-btn">
+          Get in Touch
+        </Link>
           </div>
         </div>
       </div>

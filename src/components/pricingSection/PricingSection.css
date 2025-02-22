@@ -1,6 +1,9 @@
-.pricing-section {
+#pricing-section {
   padding: 200px;
   text-align: center;
+  background-color: white;
+  font-family: "Montserrat", serif;
+
 }
 
 .pricing-title {
@@ -11,14 +14,18 @@
 .main-title {
   font-size: 36px;
   font-weight: bold;
-  color: #ffffff;
+  color: #000000;
   margin-top: 10px;
+  font-family: "Montserrat", serif;
+
 }
 
 .pricing-description {
   font-size: 18px;
-  color: #c6c6c6;
+  color: #272626;
   margin-top: 20px;
+  font-family: "Poppins", serif;
+
 }
 
 .pricing-cards {
@@ -30,9 +37,10 @@
 
 .card-section {
   border-radius: 8px;
-  padding: 50px;
+  padding: 20px;
   width: 340px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #faf2ed;
   border: 2px solid #fe5000;
   transition: transform 0.3s ease-in-out;
   margin-bottom: 20px; /* Add space between cards on mobile */
@@ -46,12 +54,12 @@
 .card-title {
   font-size: 22px;
   font-weight: bold;
-  color: #ffffff;
+  color: #000000;
 }
 
 .card-description {
   font-size: 16px;
-  color: #c9c9c9;
+  color: #1a1a1a;
   margin-top: 10px;
 }
 
@@ -69,7 +77,7 @@
 
 .price-description {
   font-size: 14px;
-  color: #d4d3d3;
+  color: #000000;
 }
 
 .pricing-features {
@@ -80,7 +88,7 @@
   display: flex;
   align-items: center;
   font-size: 16px;
-  color: #fffcf4;
+  color: #000000;
   margin: 10px 0;
 }
 
@@ -187,7 +195,7 @@
 
 /* Media Query for 480px and Below */
 @media (max-width: 480px) {
-  .pricing-section {
+  #pricing-section {
     padding: 100px 20px; /* Reduced padding for smaller screens */
   }
 

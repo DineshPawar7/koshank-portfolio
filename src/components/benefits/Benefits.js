@@ -1,16 +1,18 @@
 import React from 'react';
 import '../benefits/Benefits.css';
-import { FaInfinity, FaBolt, FaWrench, FaClock, FaCalendarCheck, FaDollarSign, FaCogs, FaPalette, FaAward } from 'react-icons/fa'; // Icons import
+import { Link } from "react-scroll";  // Import Link from react-scroll
+import { AiOutlineRobot } from 'react-icons/ai';
+import { FaBriefcase, FaChartLine, FaUsers,FaHandsHelping, FaLifeRing, FaCommentDots, FaShieldAlt, FaAward } from 'react-icons/fa';
 
 const benefitsData = [
-  { icon: <FaInfinity />, heading: "Unlimited Requests", description: "Submit as many design requests as you want, and we'll handle them one by one." },
-  { icon: <FaBolt />, heading: "High Quality Designs", description: "Get top-notch designs from experienced professionals tailored to your needs." },
-  { icon: <FaWrench />, heading: "Fully Customizable", description: "Every design is crafted uniquely for you, ensuring originality and creativity." },
-  { icon: <FaClock />, heading: "Fast Turnaround", description: "Expect quick delivery within 2-3 days for most design requests." },
-  { icon: <FaCalendarCheck />, heading: "Flexible Subscription", description: "Cancel or pause your subscription anytime without any hassle." },
-  { icon: <FaDollarSign />, heading: "Cost Effective", description: "Get premium designs at a fraction of the cost of hiring a full-time designer." },
-  { icon: <FaCogs />, heading: "Seamless Process", description: "A streamlined process ensures smooth collaboration and project execution." },
-  { icon: <FaPalette />, heading: "Creative Excellence", description: "Our team delivers unique and artistic solutions for all your design needs." },
+  { icon: <AiOutlineRobot />, heading: "Using Latest Technology", description: "Leveraging cutting-edge technology to drive innovation and future solutions." },
+  { icon: <FaBriefcase />, heading: "Industry Experience", description: "Expertise gained through years of hands-on work in various industries." },
+  { icon: <FaHandsHelping  />, heading: "Dedicated Team", description: "A committed team focused on achieving goals with passion and precision." },
+  { icon: <FaChartLine />, heading: "ROI Focused", description: "Prioritizing strategies that maximize return on investment and business growth." },
+  { icon: <FaUsers />, heading: "Expert Team", description: "A skilled and dedicated team driving success through specialized expertise." },
+  { icon: <FaLifeRing />, heading: "End-to-End Support", description: "Providing comprehensive assistance from start to finish for seamless solutions." },
+  { icon: <FaCommentDots />, heading: "Free Consultations", description: "Offering expert advice at no cost to guide your decision-making process." },
+  { icon: <FaShieldAlt />, heading: "Trusted company", description: "A reliable and reputable company known for quality and integrity." },
   { icon: <FaAward />, heading: "Expert Designers", description: "Work with a team that has 10+ years of industry experience." },
 ];
 
@@ -32,7 +34,13 @@ const Benefits = () => {
             A subscription can alleviate the stress of staffing, managing expenses, or making design calls like a Creative Director. We partner with you to ensure that your design elevates your brand to new levels.
           </h4>
           <div className="benefits-pricing-btn">
-            <button className="pricing-btn-button">Pricing</button>
+          <Link 
+          to="pricing-section"  
+          smooth={true} 
+          duration={500} 
+          className="pricing-btn-button">
+          Check Pricing
+        </Link>
           </div>
         </div>
       </div>

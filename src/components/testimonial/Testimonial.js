@@ -54,7 +54,7 @@ const reviews = [
   { name: "ArchAngels", username: "Client", body: "We’ve received excellent results from their SEO and social media marketing campaigns.", img: ArchAngels },
   { name: "BBW", username: "Client", body: "Their team delivered outstanding results with our website development, bringing in more conversions.", img: BBW },
   { name: "Aglobe", username: "Client", body: "They provided expert advice on marketing strategies that helped us expand our reach.", img: Aglobe },
-  { name: "AART Paramedical Institute", username: AART, body: "Highly recommend their digital marketing services! They know how to deliver results.", img: EMS },
+  { name: "AART Paramedical Institute", username: 'Client', body: "Highly recommend their digital marketing services! They know how to deliver results.", img: AART },
   { name: "Aalasi Engineer", username: "Client", body: "Thanks to their marketing team, we’ve seen steady growth in both leads and revenue.", img: Engineer },
 ];
 
@@ -75,7 +75,7 @@ export default function Testimonial() {
       <FadeOnScroll>
         <TitleDark
           category="TESTIMONIAL"
-          title="Customer is Our Top Priority"
+          title="CUSTOMER IS OUR TOP PRIORITY"
           description="We survey all of our clients, the results of which go directly to our CEO."
         />
       </FadeOnScroll>

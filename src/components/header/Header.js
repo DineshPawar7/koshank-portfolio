@@ -2,7 +2,9 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { TiThMenu } from "react-icons/ti";
-import koshankImage from '../../assets/koshank.png';
+import koshankImage from '../../assets/KoshankNew.png';
+import { Link } from "react-scroll";  // Import Link from react-scroll
+
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,9 +31,13 @@ const Header = () => {
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#faqs">FAQs</a></li>
           <li>
-            <button className="header-get-started">
-              Get Started
-            </button>
+            <Link 
+                      to="footer-section"   // Points to the 'contact-us' ID in the Footer
+                      smooth={true} 
+                      duration={500} 
+                      className="header-get-started">
+                      Contact Us
+                    </Link>
           </li>
         </ul>
       </nav>
