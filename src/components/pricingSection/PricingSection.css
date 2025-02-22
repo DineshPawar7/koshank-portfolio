@@ -55,6 +55,7 @@
   font-size: 22px;
   font-weight: bold;
   color: #000000;
+  
 }
 
 .card-description {
@@ -141,13 +142,13 @@
   .main-title {
     font-size: 28px;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
     margin: 10% 0;
   }
 
   .pricing-description {
     font-size: 16px;
-    color: #c6c6c6;
+    color: #141414;
     margin-top: 20px;
   }
 
@@ -164,12 +165,12 @@
 
   .card-title {
     font-size: 20px;
-    color: #ffffff;
+    color: #000000;
   }
 
   .card-description {
     font-size: 14px;
-    color: #c9c9c9;
+    color: #252525;
   }
 
   .card-price {
@@ -197,6 +198,7 @@
 @media (max-width: 480px) {
   #pricing-section {
     padding: 100px 20px; /* Reduced padding for smaller screens */
+
   }
 
   .pricing-title {
@@ -207,13 +209,13 @@
   .main-title {
     font-size: 22px;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
     margin: 10% 0;
   }
 
   .pricing-description {
     font-size: 14px;
-    color: #c6c6c6;
+    color: #000000;
     margin-top: 15px;
   }
 
@@ -230,12 +232,12 @@
 
   .card-title {
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
   }
 
   .card-description {
     font-size: 12px;
-    color: #c9c9c9;
+    color: #2a2a2a;
   }
 
   .card-price {
