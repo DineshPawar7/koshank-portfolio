@@ -1,24 +1,20 @@
-/* Footer Main Section */
 .footer-main-section {
-  margin: 0 100px;
   font-family: "Montserrat", serif;
 }
 
 /* Contact Form Section */
 .footer-first-section {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(14, 14, 14);
   color: white;
   padding: 50px 30px;
   border-radius: 20px;
   text-align: center;
   margin-top: -130px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 100px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: "Montserrat", serif;
 }
-
 
 .footer-first-section h1 {
   font-size: 45px;
@@ -86,10 +82,12 @@
   align-items: center;
   padding: 30px 20px;
   color: white;
+  flex-wrap: wrap;
 }
 
 .footer-left {
   width: 45%;
+  margin-bottom: 20px;
 }
 
 .logo img {
@@ -110,14 +108,15 @@
   margin: 10px 0;
 }
 
-.contact-info .social-icons i {
+.contact-info .social-icons a {
   font-size: 20px;
   margin-left: 10px;
   cursor: pointer;
   transition: color 0.3s;
+  color: white;
 }
 
-.contact-info .social-icons i:hover {
+.contact-info .social-icons a:hover {
   color: #fe5000;
 }
 
@@ -128,13 +127,12 @@
   margin: 20px 0;
 }
 
-/* Footer Links */
 .footer-links {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #111;
   color: white;
+  flex-wrap: wrap;
 }
 
 .footer-links-left ul {
@@ -158,107 +156,102 @@
 }
 
 /* Responsive Design */
-/* Responsive Design */
+
+/* Tablet and larger screen devices */
 @media (max-width: 768px) {
-  .footer-links {
-    flex-direction: row; /* Keep the items in a row layout instead of column */
-    justify-content: space-between; /* Distribute space between the items */
-    text-align: left; /* Align text to the left */
-  }
-
-  .footer-links-left,
-  .footer-links-right {
-    width: 48%; /* Adjust to make sure the items don't overlap */
-    text-align: left; /* Left align content */
-  }
-
-  .footer-links-left ul {
-    display: flex;
-    margin-left: 0; /* No margin on the left */
-    padding-left: 0; /* Remove any extra padding */
-  }
-
-  .footer-links-left li {
-    margin-bottom: 10px; /* Space between links */
-  }
-
-  .footer-links-right {
-    text-align: right; /* Keep copyright on the right side */
-  }
-}
-
-@media (max-width: 480px) {
-  /* Footer Section */
   .footer-first-section {
-    margin: 0 10%; /* Adjust margin to give more space on sides */
-    padding: 30px 20px; /* Adjust padding for better spacing */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 40px 20px;
   }
 
   .footer-first-section h1 {
-    font-size: 35px; /* Make the header smaller for better fitting */
+    font-size: 38px;
   }
 
   .footer-first-section p {
-    font-size: 16px; /* Reduce font size of paragraph */
-  }
-
-  .contact-form {
-    width: 100%; /* Ensure the form takes up full width available */
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    font-size: 16px;
   }
 
   .contact-form input,
   .contact-form textarea {
-    width: 100%; /* Set inputs to take up full width */
-    padding: 12px;
-    font-size: 14px; /* Smaller font size for inputs */
-    border: 2px solid white;
-    border-radius: 8px;
-    outline: none;
-    transition: border-color 0.3s ease-in-out;
+    width: 80%;
+    font-size: 15px;
   }
 
-  .contact-form textarea {
-    height: 120px; /* Adjust height for the textarea */
-    resize: none;
+  .footer-main {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .contact-form input:focus,
-  .contact-form textarea:focus {
-    border-color: #ff5733;
+  .footer-left,
+  .footer-right {
+    width: 100%;
+    text-align: center;
   }
 
-  .contact-form button {
-    width: 100%; /* Ensure button takes full width */
-    padding: 12px 30px;
-    background-color: #fe5000;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s ease-in-out;
+  .footer-left {
+    margin-bottom: 20px;
   }
 
-  .contact-form button:hover {
-    background-color: #c33e00;
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-
-  /* Footer Links Section Adjustments for Mobile */
   .footer-links {
-    flex-direction: row; /* Keep the links and copyright in a row layout */
-    justify-content: space-between;
-    text-align: left;
-    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .footer-links-left,
   .footer-links-right {
-    width: 48%; /* Adjust width for left and right sections */
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .footer-first-section {
+    margin: 0 10%;
+    padding: 30px 20px;
+  }
+
+  .footer-first-section h1 {
+    font-size: 32px;
+  }
+
+  .footer-first-section p {
+    font-size: 14px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links-left,
+  .footer-links-right {
+    width: 100%;
+    text-align: center;
   }
 }

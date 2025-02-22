@@ -1,4 +1,3 @@
-// src/components/WhatsAppIcon.js
 
 import React from 'react';
 import { FaWhatsappSquare } from 'react-icons/fa';

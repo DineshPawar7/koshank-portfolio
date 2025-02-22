@@ -45,14 +45,13 @@
   transition: transform 0.3s ease;
   overflow: hidden;
   position: relative;
-  width: auto; /* Allow dynamic width based on content */
-  min-width: 180px; /* Set minimum width */
+  width: auto;
+  min-width: 180px;
   justify-content: center;
   position: relative;
-  white-space: nowrap; /* Prevent text wrapping */
+  white-space: nowrap;
 }
 
-/* Ensure brand name doesn't break into multiple lines */
 .brand-card span {
   font-size: 16px;
   font-weight: 500;
@@ -60,10 +59,9 @@
   position: relative;
   opacity: 1;
   transition: transform 0.3s ease, opacity 0.3s ease;
-  white-space: nowrap; /* Prevent wrapping of multi-word names */
+  white-space: nowrap;
 }
   
-  /* This CSS increases the size of the brand card slightly when the cursor hovers over it. */
   .brand-card:hover {
     transform: scale(1.05);
   }
@@ -89,7 +87,6 @@
   }
   
 
-  /* On hover, the image inside the brand card slides 100px to the right, similar to a "switch" effect. */
   .brand-card:hover img {
     transform: translateX(80px);
   }
@@ -100,10 +97,10 @@
   /* Responsive styles */
   @media (max-width: 768px) {
     .brand-card {
-      min-width: 150px; /* Ensure a minimum width for smaller screens */
+      min-width: 150px;
     }
     .brand-card span {
-      font-size: 14px; /* Adjust font size on smaller screens */
+      font-size: 14px;
     }
     .brand-card img {
       width: 50px;
@@ -129,7 +126,7 @@
     }
     .brand-card {
       padding: 8px 12px;
-      min-width: 120px; /* Ensure small cards adapt to content */
+      min-width: 120px;
     }
   
     .brand-card span {

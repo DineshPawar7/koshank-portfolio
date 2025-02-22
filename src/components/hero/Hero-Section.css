@@ -1,3 +1,4 @@
+
 .hero-section {
   display: flex;
   justify-content: center;
@@ -38,7 +39,6 @@
   position: relative;
 }
 
-/* This CSS creates an orange glow effect behind the text using box-shadow, with a flashing animation applied. */
 .hero-second-text::before {
   content: "";
   position: absolute;
@@ -77,7 +77,6 @@
   transition: background-color 0.3s;
 }
 
-/* book a meeting text hover effect */
 .hero-book-demo-btn:hover {
   background-color: #ffffff;
   color: black;
@@ -101,8 +100,8 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .hero-hero-section {
-    height: 90vw; /* Adjust height for smaller screens */
+  .hero-section {
+    height: 90vw;
     padding: 10px;
   }
 

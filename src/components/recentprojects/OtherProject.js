@@ -134,7 +134,7 @@ const OtherProjects = () => {
   };
 
   return (
-    <section className="recent-projects">
+    <section id="recent-projects">
       <h1 className="project-main-title">OTHER PROJECTS</h1>
       <div
         className="carousel"
@@ -143,7 +143,7 @@ const OtherProjects = () => {
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
-        {...handlers}  // Apply swipeable handlers
+        {...handlers}  // swipeable handlers
       >
         <button className="prev-btn" onClick={handlePrev}>
           &#8592;

@@ -25,14 +25,10 @@ const Header = () => {
 
       <nav className={`header-nav ${menuOpen ? 'header-active' : ''}`}>
         <ul className="header-nav-list">
-          <li><a href="#process">Process</a></li>
-          <li><a href="#benefit">Benefit</a></li>
-          <li><a href="#service">Service</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#faqs">FAQs</a></li>
+          
           <li>
             <Link 
-                      to="footer-section"   // Points to the 'contact-us' ID in the Footer
+                      to="footer-section"
                       smooth={true} 
                       duration={500} 
                       className="header-get-started">

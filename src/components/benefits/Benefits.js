@@ -1,6 +1,6 @@
 import React from 'react';
 import '../benefits/Benefits.css';
-import { Link } from "react-scroll";  // Import Link from react-scroll
+import { Link } from "react-scroll";
 import { AiOutlineRobot } from 'react-icons/ai';
 import { FaBriefcase, FaChartLine, FaUsers,FaHandsHelping, FaLifeRing, FaCommentDots, FaShieldAlt, FaAward } from 'react-icons/fa';
 

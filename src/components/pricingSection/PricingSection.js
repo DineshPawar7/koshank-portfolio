@@ -173,7 +173,7 @@ const PricingSection = () => {
       
 
         <div className="card-section">
-          <h4 className="card-title">Graphics Designing</h4>
+          <h4 className="card-title">Logo Designing</h4>
           <div className="pricing-separator"></div>
           <p className="price-description">Starting From</p>
           <div className="card-price">INR 2,500</div>
@@ -214,7 +214,7 @@ const PricingSection = () => {
           <h4 className="card-title">E-commerce Development</h4>
           <div className="pricing-separator"></div>
           <p className="price-description">Starting From</p>
-          <div className="card-price">INR 15,000</div>
+          <div className="card-price">INR 25,000</div>
           
           <div className="pricing-separator"></div>
 

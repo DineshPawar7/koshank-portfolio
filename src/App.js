@@ -20,18 +20,16 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <TrustedBrand />
-      <HowWeWork />
+       <TrustedBrand />
+      <HowWeWork /> 
       <RecentProjects />
-      <OtherProject />
+       <OtherProject />
       <Capabilities />
       <Benefits />
-      <Testimonial />
+      <Testimonial /> 
       <PricingSection />
-      {/* <BlogSection /> */}
-      {/* <FAQs /> */}
       <Footer />
-      <Whatsapp /> {/* Add the WhatsApp Icon component */}
+      <Whatsapp />
     </div>
   );
 }

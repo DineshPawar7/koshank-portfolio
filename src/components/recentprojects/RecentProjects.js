@@ -134,7 +134,7 @@ const RecentProjects = () => {
   };
 
   return (
-    <section className="recent-projects">
+    <section id="recent-projects">
       <h3 className="project-section-title">OUR PORTFOLIO</h3>
       <h1 className="project-main-title">SEE OUR RECENT WEB DEVELOPMENT PROJECTS</h1>
       <div
@@ -144,7 +144,7 @@ const RecentProjects = () => {
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
-        {...handlers}  // Apply swipeable handlers
+        {...handlers}  // swipeable handlers
       >
         <button className="prev-btn" onClick={handlePrev}>
           &#8592;

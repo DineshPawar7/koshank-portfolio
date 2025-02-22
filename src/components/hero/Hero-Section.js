@@ -1,6 +1,5 @@
-// In Hero-Section.js
 import React from "react";
-import { Link } from "react-scroll";  // Import Link from react-scroll
+import { Link } from "react-scroll";
 import "./Hero-Section.css";
 
 const Hero = () => {
@@ -22,9 +21,8 @@ const Hero = () => {
           </span>
         </p>
 
-        {/* Add a Link component from react-scroll to scroll to Footer's Contact Us section */}
         <Link 
-          to="footer-section"   // Points to the 'contact-us' ID in the Footer
+          to="footer-section"
           smooth={true} 
           duration={500} 
           className="hero-book-demo-btn">
