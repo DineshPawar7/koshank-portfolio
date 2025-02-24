@@ -83,7 +83,6 @@
 }
 
 .hww-icon-wrapper {
-  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,7 +178,6 @@
     }
   
     .hww-icon-wrapper {
-      padding: 40px;
       margin: 10px 0;
     }
   
@@ -256,11 +254,13 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    
 
   }
 
   .hww-icon-wrapper {
-    padding: 20px;
     margin: 10px 0;
   }
 }
+
+
