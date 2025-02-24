@@ -9,8 +9,8 @@ const Capabilities = () => {
       <div className="buttons-container">
         <div className="button-row">
           <button className="capability-btn">Website design</button>
-          <button className="capability-btn">Social media marketing</button>
-          <button className="capability-btn">performance marketing</button>
+          <button className="capability-btn">Social Media marketing</button>
+          <button className="capability-btn">Performance Marketing</button>
           <button className="capability-btn">E-Commerce Development</button>
         </div>
         <div className="button-row">
@@ -21,8 +21,8 @@ const Capabilities = () => {
           <button className="capability-btn">Video Editing</button>
         </div>
         <div className="button-row">
-          <button className="capability-btn">content Marketing</button>
-          <button className="capability-btn">landing Page Development</button>
+          <button className="capability-btn">Content Marketing</button>
+          <button className="capability-btn">Landing Page Development</button>
           <button className="capability-btn">Digital ads</button>
           <button className="capability-btn">Logo Designing</button>
         </div>

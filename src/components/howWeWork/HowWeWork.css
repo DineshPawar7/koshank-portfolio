@@ -24,9 +24,9 @@
   }
   
   .bold-text {
-    font-size: 2rem;
+    
     font-weight: bold;
-    color: #ffffff;
+    color: #f0f0f0;
     line-height: 1.2;
     font-family: "Montserrat", serif;
   }
