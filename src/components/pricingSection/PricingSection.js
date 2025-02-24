@@ -7,7 +7,7 @@ const PricingSection = () => {
   return (
     <section id="pricing-section">
       <h3 className="pricing-title">CLEAR & SIMPLE PRICING</h3>
-      <h1 className="main-title">Simple pricing to level up your brand.</h1>
+      <h1 className="main-title">SIMPLE PRICING TO LEVEL UP YOUR BRAND.</h1>
       <p className="pricing-description">
         Senior experts. On-demand requests. Fast turnarounds. Flat monthly fee. Cancel anytime.
       </p>

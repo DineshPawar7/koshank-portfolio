@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div id="footer-section">
       <div className="footer-first-section">
-        <h1>Contact Us</h1>
+        <h1>CONTACT US</h1>
         <p>We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
         <form action="https://formsubmit.co/koshank.com@gmail.com" method="POST" className="contact-form">
           <input type="text" name="name" placeholder='Enter your name' required />
