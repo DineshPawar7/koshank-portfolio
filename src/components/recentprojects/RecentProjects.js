@@ -25,25 +25,22 @@ const RecentProjects = () => {
     {
       image: Gera,
       title: 'Gera Properties',
-      subCategory: 'Web Dev',
+      // subCategory: 'Web Dev',
       button: 'https://www.gera.in/'
     },
     {
       image: Snacklorry,
       title: 'Snacklorry',
-      subCategory: 'Web Dev',
       button: 'https://snacklorry.com/'
     },
     {
       image: Dhaani,
       title: 'Dhaani',
-      subCategory: 'Web Dev',
       button: 'https://dhaani.co.in/'
     },
     {
       image: Puruhome,
       title: 'Puru Home',
-      subCategory: 'Web Dev',
       button: 'https://puruhome.in/'
     },
     {
@@ -55,7 +52,6 @@ const RecentProjects = () => {
     {
       image: IITians,
       title: 'IITians Academy Pune',
-      subCategory: 'Web Dev',
       button: 'https://iitiansacademypune.com/'
     },
     {
@@ -67,7 +63,6 @@ const RecentProjects = () => {
     {
       image: Queen,
       title: 'The Queen Empire',
-      subCategory: 'Web Dev',
       button: 'https://thequeenempires.com/'
     },
     {
@@ -79,21 +74,115 @@ const RecentProjects = () => {
     {
       image: Quality,
       title: 'Quality Mushroom',
-      subCategory: 'Web Dev',
       button: 'https://qualitymushroom.in/'
     },
     {
       image: Radhika,
       title: 'Radhika Real Estate',
-      subCategory: 'Web Dev',
-      button: 'https://radhikarealestate.com/'
+      button: 'https://radhikarealestate.com/home/'
     },
     {
       image: Decoredes,
       title: 'Decoredes',
-      subCategory: 'Web Dev',
       button: 'https://decoreds.com/'
     },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm1x48jnV2SkDPv-9SvquAqXYinCr0FAkKLg&s',
+      title: 'Farzi Cafe',
+      button: 'https://farzicafe.com'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Vmjkd610Li-n1Vdmgc7SqtafefUf-e1rRw&s',
+      title: 'Swadist Bite',
+      button: 'https://swadistbite.com'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0h2V_xQdGeplcLFkJ59-W4tYRegv-WEf1Q&s',
+      title: 'Clumsy Cat Cosmetics',
+      button: 'https://clumsycatcosmetics.com'
+    },
+    {
+      image: 'https://www.carnivalpawna.com/wp-content/uploads/2023/04/pawna-lake-camping-2.png',
+      title: 'Carnival Pawna',
+      button: 'https://www.carnivalpawna.com/'
+    },
+    {
+      image: 'https://gismorochi.in/wp-content/uploads/2024/03/cropped-WhatsApp-Image-2024-03-23-at-4.45.33-PM.jpeg',
+      title: 'GIS Morochi',
+      button: 'https://gismorochi.in/home/'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6mKgyLN4meR3jQ9vikmAKNqPGRChCfwy6g&s',
+      title: 'Dream Key Realty',
+      button: 'https://www.dreamkeyrealty.com.au/'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSObA1pXcErYOMYr5XZv9HDSoRZqfS1dSHcOw&s',
+      title: 'Babies Basic',
+      button: 'https://babiesbasic.com/'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEKJAKwMLFv2u9gnKcC0rnLqF0a4szA6RDcQ&s',
+      title: 'Golden Blings',
+      button: 'https://www.goldenblings.com/'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtdmQR0VGIkFni3j1uOGlNDzsBmEBAaqbEQ&s',
+      title: 'Karagiri',
+      button: 'https://www.karagiri.com/'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjDEUO1d_tXZZL9BfiuJOgqzdniUMlMf42mQ&s',
+      title: 'Define Aesthetics',
+      button: 'https://defineaesthetics.com/'
+    },
+    {
+      image: 'https://kesariadvertising.com/wp-content/uploads/2025/01/01-Kesari-Logo-PNG-min-150x150.png',
+      title: 'Kesari Advertising',
+      button: 'https://kesariadvertising.com/'
+    },
+    {
+      image: 'https://media.licdn.com/dms/image/v2/D4D0BAQEio5CFvigDaA/company-logo_200_200/company-logo_200_200/0/1708067535367/noble_fintech_advisory_logo?e=2147483647&v=beta&t=Pzw8SYriiT4QHT0ym2bfVjYzGHJq3b8CLUTMe669ZaI',
+      title: 'Noble Fintech Advisory',
+      button: 'https://noblefintechadvisory.com/'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-P1rqqzWhsbehZhaay0v942pkLxR0n9C5EQ&s',
+      title: 'Innsite Realtors',
+      button: 'https://innsiterealtors.com/'
+    },
+    {
+      image: 'https://tzpplacementsservices.com/wp-content/uploads/2024/06/TZP-LOGO-NEW-RBG.webp',
+      title: 'TZP Placements Services',
+      button: 'https://tzpplacementsservices.com/'
+    },
+    {
+      image: 'https://aartparamedicalinstitute.com/wp-content/uploads/2024/07/AART-Paramedical-Institute.png',
+      title: 'A.A.R.T Paramedical Institute',
+      button: 'https://aartparamedicalinstitute.com/'
+    },
+    {
+      image: 'https://revticonstruction.com/wp-content/uploads/2024/08/Revti-Construction-Logo-scaled-2048x2048.webp',
+      title: 'Revti Construction',
+      button: 'https://revticonstruction.com/'
+    },
+    {
+      image: 'https://ladentiste.in/wp-content/uploads/2024/10/cropped-La-Dentist-Logo-BG.png',
+      title: 'La Dentiste',
+      button: 'https://ladentiste.in/'
+    },
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqJ0ogsN9cOzDX6NX1YMkNQ1qHV_E7k8wYg&s',
+      title: 'Dattatray Ghode',
+      button: 'https://dattatrayghode.com/'
+    },
+    {
+      image: 'https://studiogh.in/wp-content/uploads/2024/12/std-logo-e1738126877116.jpg',
+      title: 'Studio GH',
+      button: 'https://studiogh.in/home/',
+
+    },
+   
   ];
 
   const handleNext = () => {
@@ -161,7 +250,7 @@ const RecentProjects = () => {
               <img src={project.image} alt={project.title} className="card-image" />
               <div className="card-info">
                 <h4 className="project-card-title">{project.title}</h4>
-                <p className="card-subcategory">{project.subCategory}</p>
+                <p className="card-subcategory">{"Our Web Creations"}</p>
               </div>
               {/* 'See Work' button now navigates to the dynamic link */}
               <a href={project.button} target="_blank" rel="noopener noreferrer" className="see-work-btn">
