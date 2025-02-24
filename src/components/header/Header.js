@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { TiThMenu } from "react-icons/ti";
-import koshankImage from '../../assets/KoshankNew.png';
+import koshankImage from '../../assets/logo.png';
 import { Link } from "react-scroll";  // Import Link from react-scroll
 
 

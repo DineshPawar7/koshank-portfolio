@@ -49,7 +49,7 @@
   z-index: -1;
   transform: translate(-50%, -50%);
   animation: flash 3s infinite ease-in-out;
-  box-shadow: 10px 10px 700px 150px #fe50004f;
+  box-shadow: 20px 30px 500px 70px #fe50005b;
 }
 
 .hero-description {
@@ -129,6 +129,7 @@
     top: 30%;
     right: 5%;
   }
+ 
 }
 
 @media (max-width: 480px) {

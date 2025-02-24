@@ -1,6 +1,6 @@
 import React from 'react';
 import '../footer/Footer.css';
-import Logo from '../../assets/KoshankNew.png';
+import Logo from '../../assets/logo.png';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTimes } from 'react-icons/fa';
 
 const Footer = () => {
