@@ -24,19 +24,20 @@
   }
   
   .bold-text {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #ffffff;
     line-height: 1.2;
+    font-family: "Montserrat", serif;
   }
   
   .simple-text {
-    font-size: 1.3rem;
-    margin-top: 4rem;
+    font-size: 1rem;
+    margin-top: 3rem;
     font-weight: normal;
     color: #ffffff;
     line-height: 1.5;
-    font-family: "Poppins", serif;
+    font-family: "Montserrat", serif;
 
   }
   
@@ -52,7 +53,7 @@
   }
   
   .pricing-btn-button {
-    padding: 10px 20px;
+    padding: 15px 15px;
     background-color: #fe5000;
     color: #fff;
     border: none;
@@ -77,12 +78,12 @@
 
 .hww-icon-container {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hww-icon-wrapper {
-  padding: 80px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,17 +91,16 @@
 }
 
 .hww-icon-wrapper h1 {
-  font-size: 1.19rem;
+  font-size: 1rem;
   font-family: "Montserrat", serif;
-
 }
+
 
 .hww-icon-wrapper p {
   font-weight: 200;
   font-size: 1rem;
-  opacity: .8;
+  opacity: 0.8;
   font-family: "Poppins", serif;
-
 }
 
 .hww-icon {
@@ -125,6 +125,15 @@
 
 .hww-icon.right {
   font-size: 40px;
+}
+
+.svg-arrow {
+  color: yellow; 
+  font-size: 400px; 
+  
+  width: 200px;
+  height: 40px;
+  margin: 0 20px;
 }
 
   
