@@ -24,7 +24,7 @@
   }
   
   .bold-text {
-    
+    font-size: 30px;
     font-weight: bold;
     color: #f0f0f0;
     line-height: 1.2;
@@ -33,7 +33,7 @@
   
   .simple-text {
     font-size: 1rem;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     font-weight: normal;
     color: #ffffff;
     line-height: 1.5;

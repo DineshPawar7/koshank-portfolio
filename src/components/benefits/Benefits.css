@@ -18,7 +18,7 @@
 }
 
 .benefits-bold-text {
-  font-size: 3rem;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
   line-height: 1.2;
@@ -36,8 +36,8 @@
 }
 
 .benefits-simple-text {
-  font-size: 1.3rem;
-  margin-top: 4rem;
+  font-size: 1rem;
+  margin-top: 3.5rem;
   font-weight: normal;
   color: #ffffff;
   line-height: 1.5;

@@ -5,7 +5,7 @@ const Capabilities = () => {
   return (
     <div className="capabilities-container">
       <h3 className="capabilities-title">OUR CAPABILITIES</h3>
-      <h1 className="capabilities-subtitle">We can help you with...</h1>
+      <h1 className="capabilities-subtitle">WE CAN HELP YOU WITH...</h1>
       <div className="buttons-container">
         <div className="button-row">
           <button className="capability-btn">Website design</button>
