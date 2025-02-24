@@ -28,7 +28,7 @@ const Footer = () => {
 
         <div className="footer-right">
           <div className="contact-info">
-            <p><i className="mail-icon"></i> koshank.com@gmail.com</p>
+            <p><i className="mail-icon"></i> dineshpawarr07@gmail.com</p>
             <p><i className="phone-icon"></i> +91 920 923 1192</p>
             <div className="social-icons">
               <a href="https://www.facebook.com/koshank.in" target="_blank" rel="noopener noreferrer">
