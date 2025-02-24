@@ -209,17 +209,18 @@
 /* For screens under 480px */
 @media (max-width: 480px) {
   .hww-icon-container {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center the items horizontally */
     padding: 0 10px;
+    justify-content: center; /* Ensure icons are centered */
   }
 
   .hww-icon-wrapper {
     margin: 10px 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center; /* Center the icon and text */
+    text-align: center; /* Center the text */
   }
 
   .hww-icon {
@@ -236,6 +237,7 @@
   .hww-icon-wrapper p {
     font-size: 0.75rem;
   }
+
   .section-heading {
     font-size: 0.9rem;
     margin-bottom: 10px;
@@ -250,17 +252,22 @@
     font-size: 1rem;
     margin: 0;
   }
+
   .hww-icon-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 20px;
-    
-
   }
 
   .hww-icon-wrapper {
-    margin: 10px 0;
+    margin: 50px 0;
+    align-items: center;
+  }
+
+  .svg-arrow {
+    transform: rotate(90deg); /* Rotates the arrow */
+    align-items: center;
+    margin: 20px 0; /* Add margin to space the arrows */
   }
 }
-
-
