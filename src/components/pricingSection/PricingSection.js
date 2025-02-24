@@ -238,7 +238,7 @@ const PricingSection = () => {
               <span className="pricing-icon"><FaStar /></span>SEO & Marketing
             </div>
             <div className="pricing-feature">
-              <span className="pricing-icon"><FaStar /></span> Order Managementgv
+              <span className="pricing-icon"><FaStar /></span> Order Management
             </div>
           </div>
 
