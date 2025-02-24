@@ -18,18 +18,18 @@ import Whatsapp from './components/wa-page/Whatsapp'; // Import the WhatsApp Ico
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
+        <Header />
+        <Hero /> 
        <TrustedBrand />
-      <HowWeWork /> 
-      <RecentProjects />
+       <HowWeWork />
+      <RecentProjects />  
        <OtherProject />
       <Capabilities />
       <Benefits />
       <Testimonial /> 
       <PricingSection />
       <Footer />
-      <Whatsapp />
+      <Whatsapp />  
     </div>
   );
 }

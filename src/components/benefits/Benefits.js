@@ -24,14 +24,14 @@ const Benefits = () => {
         <div className="how-we-work-left">
           <h3 className="benefits-section-heading">BENEFITS</h3>
           <h3 className="benefits-bold-text">
-            The design subscription that connects you to your dream team.
+          Why Choose Koshank
           </h3>
         </div>
 
         {/* Right Section */}
         <div className="how-we-work-right">
           <h4 className="benefits-simple-text">
-            A subscription can alleviate the stress of staffing, managing expenses, or making design calls like a Creative Director. We partner with you to ensure that your design elevates your brand to new levels.
+          Choosing Koshank means choosing a dedicated partner that is invested in your success. We bring a combination of expertise, customization, data-driven insights, transparent communication, continuous optimization, and a collaborative mindset to help your business thrive in the competitive digital landscape. Let us be your trusted performance marketing partner, and together, we can achieve remarkable results.
           </h4>
           <div className="benefits-pricing-btn">
           <Link 

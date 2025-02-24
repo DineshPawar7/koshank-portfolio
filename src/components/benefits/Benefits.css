@@ -1,5 +1,6 @@
 .how-we-work {
   padding: 50px;
+  
 }
 
 .how-we-work-content {
@@ -7,6 +8,7 @@
   justify-content: space-between;
   margin-bottom: 40px;
   flex-wrap: wrap;
+
 }
 
 .benefits-section-heading {
@@ -33,6 +35,7 @@
   flex-direction: column;
   justify-content: flex-start;
   min-width: 280px;
+  
 }
 
 .benefits-simple-text {

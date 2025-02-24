@@ -1,5 +1,6 @@
 .footer-main-section {
   font-family: "Montserrat", serif;
+  
 }
 
 /* Contact Form Section */
@@ -83,6 +84,7 @@
   padding: 30px 20px;
   color: white;
   flex-wrap: wrap;
+
 }
 
 .footer-left {
@@ -133,6 +135,7 @@
   padding: 20px;
   color: white;
   flex-wrap: wrap;
+
 }
 
 .footer-links-left ul {

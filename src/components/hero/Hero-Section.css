@@ -1,15 +1,16 @@
-
 .hero-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
   height: 100vh;
   position: relative;
   text-align: center;
   flex-direction: column;
   padding: 20px;
   font-family: "Poppins", serif;
+  width: 100%;
+  overflow: hidden; /* Prevents overflow */
+  min-width: 320px; /* Ensures that the section won't shrink below this width */
 }
 
 .hero-text {
@@ -19,6 +20,7 @@
   align-items: center;
   text-align: center;
   line-height: 0.6;
+  max-width: 100%; /* Prevents content from overflowing */
 }
 
 .hero-first-text,
@@ -58,6 +60,7 @@
   margin-top: 30px;
   font-weight: 400;
   font-size: 1vw;
+  line-height: 0.8;
 }
 
 .hero-second-discription {
@@ -98,8 +101,95 @@
   width: 7vw;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
+  .hero-section {
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .hero-first-text,
+  .hero-second-text {
+    font-size: 10vw;
+  }
+
+  .hero-description {
+    font-size: 3vw;
+    margin-top: 20px;
+  }
+
+  .hero-book-demo-btn {
+    font-size: 4vw;
+    padding: 15px 15px;
+  }
+
+  .hero-star-shape {
+    height: 10vw;
+    width: 10vw;
+    top: 30%;
+    right: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 5px;
+  }
+
+  .hero-first-text,
+  .hero-second-text {
+    font-size: 12vw;
+  }
+
+  .hero-description {
+    font-size: 4vw;
+  }
+
+  .hero-book-demo-btn {
+    font-size: 5vw;
+    padding: 12px 12px;
+  }
+
+  .hero-star-shape {
+    height: 15vw;
+    width: 15vw;
+    top: 35%;
+    right: 3%;
+  }
+}
+
+/* For extremely small devices (e.g., 160px width) */
+@media (max-width: 160px) {
+  .hero-section {
+    display: block; /* Stack the elements vertically if needed */
+    text-align: center;
+  }
+
+  .hero-first-text,
+  .hero-second-text {
+    font-size: 16vw; /* Make text fit smaller screens */
+  }
+
+  .hero-description {
+    font-size: 6vw; /* Increase font size for readability */
+  }
+
+  .hero-book-demo-btn {
+    font-size: 6vw;
+    padding: 8px 8px;
+  }
+
+  .hero-star-shape {
+    height: 20vw;
+    width: 20vw;
+    top: 40%;
+    right: 2%;
+  }
+}
+
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
   .hero-section {
     height: 90vw;
     padding: 10px;
@@ -108,29 +198,20 @@
   .hero-first-text, .hero-second-text {
     font-size: 8vw;
   }
+
   .hero-second-text {
     font-size: 8vw;
   }
-  .hero-description {
-    font-size: 1.4vw;
-  }  
-  .hero-first-text, .hero-second-text {
-    font-size: 8vw;
-  }
-  .hero-second-text {
-    font-size: 8vw;
-  }
+
   .hero-description {
     font-size: 1.4vw;
   }
-  
-  .hero-text {
-    line-height: 0.1;
-  }
+
   .hero-book-demo-btn {
     font-size: 2vw;
     padding: 15px 15px;
   }
+
   .hero-star-shape {
     height: 8vw;
     width: 8vw;
@@ -139,51 +220,32 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 150px) {
   .hero-section {
-    min-height: 85vh;
-    top: -15vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    padding: 5px;
   }
 
   .hero-first-text, .hero-second-text {
-    font-size: 9vw;
+    font-size: 12vw;
   }
 
   .hero-description {
-    font-size: 2vw;
-    margin: 0;
-  }
-
-  .hero-text {
-    line-height: 0.3;
+    font-size: 3vw; 
   }
 
   .hero-book-demo-btn {
-    font-size: 3vw;
-    padding: 15px 15px;
+    font-size: 4vw;
+    padding: 10px 10px;
   }
 
   .hero-star-shape {
-    height: 8vw;
-    width: 8vw;
-    top: 36%;
-    right: 8%;
+    height: 12vw;
+    width: 12vw;
+    top: 30%;
+    right: 5%;
   }
-  
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */
