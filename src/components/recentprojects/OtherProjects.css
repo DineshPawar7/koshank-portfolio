@@ -1,4 +1,5 @@
-#recent-projects {
+/* Styles for Other Projects Section */
+#other-projects {
   padding: 40px 0;
   background-color: white;
   color: black;
@@ -7,14 +8,14 @@
   font-family: "Poppins", serif;
 }
 
-.project-section-title {
+.other-project-section-title {
   font-size: 1rem;
   font-weight: normal;
   color: #fe5000;
   text-align: center;
 }
 
-.project-main-title {
+.other-project-main-title {
   font-size: 24px;
   font-weight: bold;
   margin-top: 10px;
@@ -22,25 +23,25 @@
   font-weight: 650;
 }
 
-.carousel {
+.other-carousel {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  overflow: hidden; /* Prevent the horizontal scrollbar */
+  overflow-x: hidden; /* Allow horizontal scrolling */
 }
 
-.carousel-cards {
+.other-carousel-cards {
   display: flex;
   transition: transform 0.5s ease;
-  width: auto; /* Adjust to auto so that it fits the content dynamically */
+  width: 100%; /* Full width of the container */
 }
 
-.card-item {
+.other-card-item {
   flex: 0 0 33.33%;
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
-  background-color: #e1e1e1;
+  background-color: #fcf5f5;
   margin: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.633);
@@ -48,35 +49,35 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.card-item:hover {
+.other-card-item:hover {
   transform: scale(1.05);
 }
 
-.card-image {
-  width: 100%;
-  height: 250px;
+.other-card-image {
+  width: 150px;
+  height: 150px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 50%;
   margin: 0 auto;
 }
 
-.card-info {
+.other-card-info {
   margin-top: 15px;
 }
 
-.project-card-title {
+.other-project-card-title {
   font-size: 1.2rem;
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
 
-.card-subcategory {
+.other-card-subcategory {
   font-size: 1rem;
   color: #fe5000;
   font-weight: 500;
 }
 
-.see-work-btn {
+.other-see-work-btn {
   padding: 10px 20px;
   background-color: #fe5000;
   color: white;
@@ -89,17 +90,17 @@
   text-transform: uppercase;
 }
 
-.see-work-btn:hover {
+.other-see-work-btn:hover {
   background-color: #ff7800;
   transform: translateY(-5px);
 }
 
-.card-item:hover .see-work-btn {
+.other-card-item:hover .other-see-work-btn {
   opacity: 1;
   transform: translateY(0);
 }
 
-.prev-btn, .next-btn {
+.other-prev-btn, .other-next-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -111,83 +112,82 @@
   z-index: 1;
 }
 
-.prev-btn {
+.other-prev-btn {
   left: 10px;
 }
 
-.next-btn {
+.other-next-btn {
   right: 10px;
 }
 
-.prev-btn:hover, .next-btn:hover {
+.other-prev-btn:hover, .other-next-btn:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 768px) {
-  .card-item {
+  .other-card-item {
     flex: 0 0 50%;
     margin: 10px; /* Reduce margin */
   }
 
-  .see-work-btn {
+  .other-see-work-btn {
     width: 100%; /* Full width button for mobile */
     font-size: 14px; /* Adjust font size */
   }
 
-  .carousel-cards {
-    width: 100%;
+  .other-carousel-cards {
+    width: 100%; /* Ensure full width for mobile */
   }
-  
 }
 
 @media (max-width: 480px) {
-  #recent-projects {
+  #other-projects {
     padding: 20px 0;
   }
 
-  .project-section-title {
+  .other-project-section-title {
     font-size: 10px; /* Smaller font size for very small screens */
   }
 
-  .project-main-title {
+  .other-project-main-title {
     font-size: 10px; /* Smaller font size for very small screens */
   }
 
-  .card-item {
+  .other-card-item {
     flex: 0 0 100%;
     margin: 5px; /* Further reduce margin */
   }
 
-  .card-image {
+  .other-card-image {
     height: 130px;
     width: 130px; /* Adjust image size */
   }
 
-  .see-work-btn {
+  .other-see-work-btn {
     font-size: 12px; /* Even smaller font for small screens */
   }
 
-  .prev-btn, .next-btn {
+  .other-prev-btn, .other-next-btn {
     padding: 8px;
     font-size: 1.2rem; /* Adjust button size */
   }
 }
 
 @media (max-width: 396px) {
-  #recent-projects {
+  #other-projects {
     width: 100%;
   }
 
-  .card-image {
+  .other-card-image {
     height: 100px;
     width: 100px; /* Reduce image size on very small screens */
   }
 
-  .project-section-title {
+  .other-project-section-title {
     font-size: 8px; /* Very small font for extra small screens */
   }
 
-  .project-main-title {
+  .other-project-main-title {
     font-size: 8px; /* Very small font for extra small screens */
   }
 }

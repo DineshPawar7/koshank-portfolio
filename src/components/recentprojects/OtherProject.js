@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { useSwipeable } from 'react-swipeable';
-import './RecentProjects.css';
+import './OtherProjects.css';
 import BBW from "../../assets/BBW Logo-1.jpg";
 import Virasath from "../../assets/Virasath Logo.jpg";
 import Vastu from "../../assets/Vastu Umbartha Logo.jpg";
@@ -134,10 +134,10 @@ const OtherProjects = () => {
   };
 
   return (
-    <section id="recent-projects">
-      <h1 className="project-main-title">OTHER PROJECTS</h1>
+    <section id="other-projects">
+      <h1 className="other-project-main-title">OTHER PROJECTS</h1>
       <div
-        className="carousel"
+        className="other-carousel"
         ref={carouselRef}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
@@ -145,31 +145,31 @@ const OtherProjects = () => {
         onMouseLeave={handleMouseUp}
         {...handlers}  // swipeable handlers
       >
-        <button className="prev-btn" onClick={handlePrev}>
+        <button className="other-prev-btn" onClick={handlePrev}>
           &#8592;
         </button>
         <div
-          className="carousel-cards"
+          className="other-carousel-cards"
           style={{
             transform: `translateX(-${currentIndex * 33.33}%)`,
             transition: 'transform 0.5s ease',
           }}
         >
           {projects.map((project, index) => (
-            <div key={index} className="card-item">
-              <img src={project.image} alt={project.title} className="card-image" />
-              <div className="card-info">
-                <h4 className="project-card-title">{project.title}</h4>
-                <p className="card-subcategory">{project.subCategory}</p>
+            <div key={index} className="other-card-item">
+              <img src={project.image} alt={project.title} className="other-card-image" />
+              <div className="other-card-info">
+                <h4 className="other-project-card-title">{project.title}</h4>
+                <p className="other-card-subcategory">{project.subCategory}</p>
               </div>
               {/* 'See Work' button now navigates to the dynamic link */}
-              <a href={project.button} target="_blank" rel="noopener noreferrer" className="see-work-btn">
+              <a href={project.button} target="_blank" rel="noopener noreferrer" className="other-see-work-btn">
                 See Work
               </a>
             </div>
           ))}
         </div>
-        <button className="next-btn" onClick={handleNext}>
+        <button className="other-next-btn" onClick={handleNext}>
           &#8594;
         </button>
       </div>
