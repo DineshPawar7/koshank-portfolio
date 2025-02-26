@@ -114,99 +114,104 @@
 }
 
 /* Media Query for Tablet */
+/* Media Query for Tablet (max-width: 1024px) */
+/* Media Query for Tablet (max-width: 1024px) */
 @media (max-width: 1024px) {
   #pricing-section {
-    padding: 100px 20px;
+    padding: 80px 20px;  /* Adjusted padding for the section */
+  margin-bottom: 80px;
   }
 
   .pricing-cards {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Add space between cards */
+    width: 100%; /* Ensure container takes full width */
   }
 
   .card-section {
-    width: 80%;
-    margin-bottom: 20px;
+    width: 40%; /* Two cards per row, slightly less than 50% for spacing */
+    margin-bottom: 20px; /* Space between rows */
   }
 
   .main-title {
-    font-size: 24px;
+    font-size: 24px; /* Adjust font size for the main title */
   }
 
   .pricing-description {
-    font-size: 16px;
+    font-size: 16px; /* Adjust font size for description */
   }
 
   .card-title {
-    font-size: 20px;
+    font-size: 20px; /* Adjust card title font size */
   }
 
   .card-price {
-    font-size: 22px;
+    font-size: 22px; /* Adjust the font size for the price */
   }
 
   .pricing-buttons {
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 15px; /* Space between buttons */
   }
 
   .pricing-book-call, .pricing-click-to-buy {
-    width: 100%;
-    padding: 10px 20px;
+    width: 100%; /* Make buttons take full width */
+    padding: 10px 20px; /* Padding for the buttons */
   }
 }
+
+
 
 /* Media Query for Mobile (768px and below) */
 @media (max-width: 768px) {
   #pricing-section {
-    padding: 80px 20px;
-  }
-
-  .pricing-title {
-    font-size: 16px;
-  }
-
-  .main-title {
-    font-size: 22px;
-    margin-top: 10px;
-  }
-
-  .pricing-description {
-    font-size: 14px;
+    padding: 80px 20px;  /* Adjusted padding for the section */
+  margin-bottom: 80px;
   }
 
   .pricing-cards {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Add space between cards */
+    width: 100%; /* Ensure container takes full width */
   }
 
   .card-section {
-    width: 100%;
+    width: 40%; /* Two cards per row, slightly less than 50% for spacing */
+    margin-bottom: 20px; /* Space between rows */
+  }
+
+  .main-title {
+    font-size: 24px; /* Adjust font size for the main title */
+  }
+
+  .pricing-description {
+    font-size: 16px; /* Adjust font size for description */
   }
 
   .card-title {
-    font-size: 18px;
-  }
-
-  .card-description {
-    font-size: 14px;
+    font-size: 20px; /* Adjust card title font size */
   }
 
   .card-price {
-    font-size: 20px;
+    font-size: 22px; /* Adjust the font size for the price */
   }
 
   .pricing-buttons {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 15px; /* Space between buttons */
   }
 
   .pricing-book-call, .pricing-click-to-buy {
-    width: 100%;
-    padding: 8px 15px;
+    width: 100%; /* Make buttons take full width */
+    padding: 10px 20px; /* Padding for the buttons */
   }
 }
+
+
 
 /* Media Query for 480px and Below */
 @media (max-width: 480px) {
@@ -234,7 +239,7 @@
   }
 
   .card-section {
-    width: 95%;
+    width: 90%;
     padding: 15px;
   }
 

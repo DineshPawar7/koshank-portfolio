@@ -146,12 +146,20 @@
   }
 
   .benefits-grid-container {
-    grid-template-columns: 1fr; /* 1 column */
+    grid-template-columns: repeat(2, 1fr); /* 1 column */
   }
 
   .pricing-btn-button {
     padding: 8px 16px;
     margin-top: 20px;
+  }
+  .benefit-box .benefits-title {
+    
+    font-size: 15px;
+    
+  }
+  .benefits-description {
+    font-size: 10px;
   }
 }
 
