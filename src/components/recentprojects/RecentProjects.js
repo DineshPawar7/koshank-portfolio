@@ -26,7 +26,7 @@ import Kesari from "../../assets/assets2/kasri1.png";
 import Fintech from "../../assets/assets2/finetech1.png";
 import Innsite from "../../assets/assets2/innsite1.png";
 import TZP from "../../assets/assets2/tzp1.png";
-import AART from "../../assets/assets2/aart1.png";
+import AART from "../../assets/assets2/aart.png";
 import Revti from "../../assets/assets2/revti1.png";
 import Dentiste from "../../assets/assets2/dentist1.png";
 import Dattatray from "../../assets/assets2/arch1.png";
