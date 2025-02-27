@@ -19,7 +19,7 @@ import GIS from "../../assets/assets2/school1.png";
 import Dream from "../../assets/assets2/dream1.png";
 import Babies from "../../assets/assets2/babies1.png";
 import Golden from "../../assets/assets2/golden1.png";
-import Queen from "../../assets/assets2/queen1.png";
+import Queen from "../../assets/assets2/queen.png";
 import Karagiri from "../../assets/assets2/karagiri1.png";
 import Define from "../../assets/assets2/define1.png";
 import Kesari from "../../assets/assets2/kasri1.png";
