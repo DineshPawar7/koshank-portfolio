@@ -2,6 +2,7 @@ import React from 'react';
 import '../footer/Footer.css';
 import Logo from '../../assets/logo.png';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTimes } from 'react-icons/fa';
+import ContactForm from '../ContactForm/ContactForm';
 
 const Footer = () => {
   return (
@@ -9,13 +10,7 @@ const Footer = () => {
       <div className="footer-first-section">
         <h1>CONTACT US</h1>
         <p>We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
-        <form action="https://formsubmit.co/koshank.com@gmail.com" method="POST" className="contact-form">
-          <input type="text" name="name" placeholder='Enter your name' required />
-          <input type="email" name="email" placeholder='Enter email' required />
-          <input type="tel" name="mobile" placeholder='Enter mobile number' required />
-          <textarea name="message" placeholder="Type Your Message Here" required></textarea>
-          <button type="submit">Send</button>
-        </form>
+       <ContactForm />
       </div>
 
       <div className="footer-main">
